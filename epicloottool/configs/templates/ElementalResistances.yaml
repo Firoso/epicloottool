@@ -1,0 +1,59 @@
+---
+- TemplateId: ElementalResistance
+  SelectionWeight: 1
+  ValuesPerRarity:
+    Magic: {MinValue: 3, MaxValue: 5, Increment: 1}
+    Rare: {MinValue: 4, MaxValue: 7, Increment: 1}
+    Epic: {MinValue: 5, MaxValue: 9, Increment: 1}
+    Legendary: {MinValue: 6, MaxValue: 12, Increment: 1}
+
+- TemplateId: LightningResistance
+  ParentTemplateIds:
+  - ElementalResistance
+  Type: AddLightningResistancePercentage
+  ExclusiveEffectTypes:
+  - AddPoisonResistancePercentage
+  - AddFireResistancePercentage
+  - AddFrostResistancePercentage
+  - AddSpiritResistancePercentage
+
+- TemplateId: PoisonResistance
+  ParentTemplateIds:
+  - ElementalResistance
+  Type: AddPoisonResistancePercentage
+  ExclusiveEffectTypes:
+  - AddLightningResistancePercentage
+  - AddFireResistancePercentage
+  - AddFrostResistancePercentage
+  - AddSpiritResistancePercentage
+
+- TemplateId: FireResistance
+  ParentTemplateIds:
+  - ElementalResistance
+  Type: AddFireResistancePercentage
+  ExclusiveEffectTypes:
+  - AddLightningResistancePercentage
+  - AddPoisonResistancePercentage
+  - AddFrostResistancePercentage
+  - AddSpiritResistancePercentage
+
+- TemplateId: FrostResistance
+  ParentTemplateIds:
+  - ElementalResistance
+  Type: AddFrostResistancePercentage
+  ExclusiveEffectTypes:
+  - AddLightningResistancePercentage
+  - AddPoisonResistancePercentage
+  - AddFireResistancePercentage
+  - AddSpiritResistancePercentage
+
+- TemplateId: SpiritResistance
+  ParentTemplateIds:
+  - ElementalResistance
+  Type: AddSpiritResistancePercentage
+  ExclusiveEffectTypes:
+  - AddLightningResistancePercentage
+  - AddPoisonResistancePercentage
+  - AddFireResistancePercentage
+  - AddFrostResistancePercentage
+  

@@ -1,0 +1,30 @@
+---
+- TemplateId: IncreaseHealthStrong
+  Id: IncreaseHealthChest
+  AllowedItemTypes: 
+   - "Chest"
+
+- TemplateId: IncreaseHealthStrong
+  Id: IncreaseHealthHelmet
+  AllowedItemTypes: 
+   - "Helmet"
+
+- TemplateId: IncreaseHealthWeak
+  Id: IncreaseHealthLegs
+  AllowedItemTypes: 
+   - "Legs"
+
+- TemplateId: IncreaseHealthWeak
+  Id: IncreaseHealthRings
+  AllowedItemTypes: 
+   - "Utility"
+  AllowedItemNames:
+   - "Gold Ruby Ring"
+   - "Silver Ring"
+
+- TemplateId: IncreaseHealthWeak
+  Id: IncreaseHealthBelt
+  AllowedItemTypes: 
+   - "Utility"
+  AllowedItemNames:
+   - "Leather Belt"

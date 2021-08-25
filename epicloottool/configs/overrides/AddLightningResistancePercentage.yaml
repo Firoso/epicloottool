@@ -1,0 +1,30 @@
+---
+- TemplateId: LightningResistance
+  Id: AddLightningResistanceChest
+  AllowedItemTypes: 
+   - "Chest"
+
+- TemplateId: LightningResistance
+  Id: AddLightningResistanceHelmet
+  AllowedItemTypes: 
+   - "Helmet"
+
+- TemplateId: LightningResistance
+  Id: AddLightningResistanceLegs
+  AllowedItemTypes: 
+   - "Legs"
+
+- TemplateId: LightningResistance
+  Id: AddLightningResistanceRings
+  AllowedItemTypes: 
+   - "Utility"
+  AllowedItemNames:
+   - "Gold Ruby Ring"
+   - "Silver Ring"
+
+- TemplateId: LightningResistance
+  Id: AddLightningResistanceBelt
+  AllowedItemTypes: 
+   - "Utility"
+  AllowedItemNames:
+   - "Leather Belt"
