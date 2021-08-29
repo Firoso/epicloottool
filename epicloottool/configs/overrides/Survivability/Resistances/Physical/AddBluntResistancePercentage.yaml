@@ -1,0 +1,27 @@
+---
+- TemplateId: BluntResistance
+  Id: AddBluntResistance
+  AllowedItemTypes: 
+   - Chest
+   - Helmet
+   - Legs
+
+- TemplateId: BluntResistance
+  Id: BluntResistance
+  AllowedItemTypes: 
+   - Utility
+  AllowedItemNames:
+   - Gold Ruby Ring
+   - Silver Ring
+
+- TemplateId: BluntResistance
+  Id: AddBluntResistanceBelt
+  AllowedItemTypes: 
+   - Utility
+  AllowedItemNames:
+  - Leather Belt
+  - Aescfell Belt
+  - Stánbrysan Belt
+  - Eorðtilia Belt
+  - Stulor Belt
+  - Casul Belt

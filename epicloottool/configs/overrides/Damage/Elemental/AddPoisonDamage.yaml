@@ -1,0 +1,13 @@
+---
+- TemplateId: AddPoisonDamageOneHandedFast
+  Id: AddPoisonDamageOneHandedFast
+
+- TemplateId: AddPoisonDamageOneHandedSlow
+  Id: AddPoisonDamageOneHandedSlow
+
+- TemplateId: AddPoisonDamageTwoHanded
+  Id: AddPoisonDamageTwoHanded
+
+- TemplateId: AddPoisonDamageBows
+  Id: AddPoisonDamageBows
+

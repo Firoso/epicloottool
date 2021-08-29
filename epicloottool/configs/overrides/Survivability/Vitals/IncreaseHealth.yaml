@@ -2,29 +2,34 @@
 - TemplateId: IncreaseHealthStrong
   Id: IncreaseHealthChest
   AllowedItemTypes: 
-   - "Chest"
+   - Chest
 
 - TemplateId: IncreaseHealthStrong
   Id: IncreaseHealthHelmet
   AllowedItemTypes: 
-   - "Helmet"
+   - Helmet
 
 - TemplateId: IncreaseHealthWeak
   Id: IncreaseHealthLegs
   AllowedItemTypes: 
-   - "Legs"
+   - Legs
 
 - TemplateId: IncreaseHealthWeak
   Id: IncreaseHealthRings
   AllowedItemTypes: 
-   - "Utility"
+   - Utility
   AllowedItemNames:
-   - "Gold Ruby Ring"
-   - "Silver Ring"
+   - Gold Ruby Ring
+   - Silver Ring
 
 - TemplateId: IncreaseHealthWeak
   Id: IncreaseHealthBelt
   AllowedItemTypes: 
-   - "Utility"
+   - Utility
   AllowedItemNames:
-   - "Leather Belt"
+  - Leather Belt
+  - Aescfell Belt
+  - Stánbrysan Belt
+  - Eorðtilia Belt
+  - Stulor Belt
+  - Casul Belt

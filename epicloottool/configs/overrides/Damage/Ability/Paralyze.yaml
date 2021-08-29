@@ -1,0 +1,7 @@
+---
+- TemplateId: ParalyzeWeapon
+  Id: ParalyzeWeapon
+
+- TemplateId: ParalyzeEquipment
+  Id: ParalyzeEquipment
+

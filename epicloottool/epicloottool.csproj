@@ -20,19 +20,301 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Update="configs\overrides\AddLightningResistancePercentage.yaml">
+    <None Update="configs\overrides\Mobility\Ability\AddCarryWeight.yaml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="configs\overrides\IncreaseStamina.yaml">
+    <None Update="configs\overrides\Mobility\Ability\Immovable.yaml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="configs\templates\ElementalResistances.yaml">
+    <None Update="configs\overrides\Mobility\Ability\FeatherFall.yaml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="configs\overrides\IncreaseHealth.yaml">
+    <None Update="configs\overrides\Mobility\Ability\DoubleJump.yaml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="configs\templates\IncreaseVitals.yaml">
+    <None Update="configs\overrides\Mobility\Ability\WaterWalking.yaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="configs\overrides\Mobility\Speed\ModifyMovementSpeed.yaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="configs\overrides\Mobility\Speed\ModifyMovementSpeedLowHealth.yaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="configs\overrides\Survivability\Armor\ModifyArmor.yaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="configs\overrides\Survivability\Armor\ModifyArmorLowHealth.yaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="configs\overrides\Survivability\Mitigation\ModifyBlockPower.yaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="configs\overrides\Survivability\Mitigation\AvoidDamageTakenLowHealth.yaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="configs\overrides\Survivability\Mitigation\Duelist.yaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="configs\overrides\Survivability\Mitigation\AvoidDamageTaken.yaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="configs\overrides\Survivability\Mitigation\StaggerOnDamageTaken.yaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="configs\overrides\Survivability\Mitigation\ModifyParryWindow.yaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="configs\overrides\Survivability\Mitigation\ModifyParry.yaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="configs\overrides\Survivability\Mitigation\ModifyBlockPowerLowHealth.yaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="configs\overrides\Survivability\Resistances\Elemental\AddLightningResistancePercentage.yaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="configs\overrides\Survivability\Resistances\Elemental\AddFireResistancePercentage.yaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="configs\overrides\Survivability\Resistances\Elemental\AddElementalResistancePercentage.yaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="configs\overrides\Survivability\Resistances\Elemental\AddSpiritResistancePercentage.yaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="configs\overrides\Survivability\Resistances\Elemental\AddFrostResistancePercentage.yaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="configs\overrides\Survivability\Resistances\Elemental\AddPoisonResistancePercentage.yaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="configs\overrides\Adventuring\Gear\Indestructible.yaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="configs\overrides\Adventuring\Gear\Waterproof.yaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="configs\overrides\Adventuring\Gear\Glowing.yaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="configs\overrides\Adventuring\Gear\RemoveSpeedPenalty.yaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="configs\overrides\Adventuring\Gear\ModifyDurability.yaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="configs\overrides\Adventuring\Homesteading\FreeBuild.yaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="configs\overrides\Adventuring\Rewards\Comfortable.yaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="configs\overrides\Adventuring\Rewards\Riches.yaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="configs\overrides\Adventuring\Rewards\Luck.yaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="configs\overrides\Adventuring\Skills\AddKnivesSkill.yaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="configs\overrides\Adventuring\Skills\AddClubsSkill.yaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="configs\overrides\Adventuring\Skills\AddPolearmsSkill.yaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="configs\overrides\Adventuring\Skills\AddSpearsSkill.yaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="configs\overrides\Adventuring\Skills\AddBlockingSkill.yaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="configs\overrides\Adventuring\Skills\AddAxesSkill.yaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="configs\overrides\Adventuring\Skills\AddBowsSkill.yaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="configs\overrides\Adventuring\Skills\AddMovementSkills.yaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="configs\overrides\Adventuring\Skills\AddUnarmedSkill.yaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="configs\overrides\Adventuring\Skills\AddPickaxesSkill.yaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="configs\overrides\Adventuring\Skills\AddSwordsSkill.yaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="configs\overrides\Damage\Ability\Paralyze.yaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="configs\overrides\Damage\Ability\ModifyDamageLowHealth.yaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="configs\overrides\Damage\Ability\ModifyBackstab.yaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="configs\overrides\Damage\Ability\ModifyAttackSpeed.yaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="configs\overrides\Damage\Ability\ModifyAttackSpeedLowHealth.yaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="configs\overrides\Damage\Ability\ModifyStaggerDuration.yaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="configs\overrides\Damage\Ability\ModifyStaggerDamage.yaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="configs\overrides\Damage\Ability\ReflectDamage.yaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="configs\overrides\Damage\Ability\QuickDraw.yaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="configs\overrides\Damage\Ability\Throwable.yaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="configs\overrides\Damage\Ability\ExplosiveArrows.yaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="configs\overrides\Damage\Ability\Executioner.yaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="configs\overrides\Damage\Ability\Opportunist.yaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="configs\overrides\Damage\Ability\Slow.yaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="configs\overrides\Damage\Ability\RecallWeapon.yaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="configs\overrides\Damage\Elemental\AddPoisonDamage.yaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="configs\overrides\Damage\Elemental\ModifyElementalDamage.yaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="configs\overrides\Damage\Elemental\AddSpiritDamage.yaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="configs\overrides\Damage\Elemental\AddLightningDamage.yaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="configs\overrides\Damage\Elemental\AddFrostDamage.yaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="configs\overrides\Damage\Elemental\AddFireDamage.yaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="configs\overrides\Damage\Physical\AddBluntDamage.yaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="configs\overrides\Damage\Physical\AddSlashingDamage.yaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="configs\overrides\Damage\Physical\AddPiercingDamage.yaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="configs\overrides\Damage\Physical\ModifyPhysicalDamage.yaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="configs\overrides\Survivability\Resistances\Physical\AddPhysicalResistancePercentage.yaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="configs\overrides\Survivability\Resistances\Physical\AddSlashingResistancePercentage.yaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="configs\overrides\Survivability\Resistances\Physical\AddPiercingResistancePercentage.yaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="configs\overrides\Survivability\Resistances\Physical\AddBluntResistancePercentage.yaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="configs\overrides\Survivability\Vitals\LifeSteal.yaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="configs\overrides\Survivability\Vitals\LifeStealLowHealth.yaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="configs\overrides\Survivability\Vitals\ModifyBlockStaminaUse.yaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="configs\overrides\Survivability\Vitals\ModifyJumpStaminaUse.yaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="configs\overrides\Survivability\Vitals\ModifyAttackStaminaUse.yaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="configs\overrides\Survivability\Vitals\ModifySprintStaminaUse.yaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="configs\overrides\Survivability\Vitals\ModifyHealthRegenLowHealth.yaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="configs\overrides\Survivability\Vitals\ModifyHealthRegen.yaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="configs\overrides\Survivability\Vitals\ModifyStaminaRegenLowHealth.yaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="configs\overrides\Survivability\Vitals\ModifyStaminaRegen.yaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="configs\overrides\Survivability\Vitals\IncreaseStamina.yaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="configs\templates\Adventuring\Homesteading.yaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="configs\templates\Adventuring\Gear.yaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="configs\templates\Adventuring\Skills.yaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="configs\templates\Adventuring\Rewards.yaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="configs\templates\Damage\Ability.yaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="configs\templates\Damage\Elemental.yaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="configs\templates\Damage\Physical.yaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="configs\templates\Mobility\Speed.yaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="configs\templates\Mobility\Ability.yaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="configs\templates\Common.yaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="configs\templates\Survivability\Mitigation.yaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="configs\templates\Survivability\Resistances\Physical.yaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="configs\templates\Survivability\Resistances\Elemental.yaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="configs\overrides\Survivability\Vitals\IncreaseHealth.yaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="configs\templates\Survivability\Armor.yaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="configs\templates\Survivability\Vitals.yaml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="MagicItemEffectsTemplate.yaml">

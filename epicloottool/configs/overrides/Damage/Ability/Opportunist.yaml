@@ -1,0 +1,10 @@
+---
+- TemplateId: OpportunistHelmet
+  Id: OpportunistHelmet
+
+- TemplateId: OpportunistKnives
+  Id: OpportunistKnives
+
+- TemplateId: OpportunistBows
+  Id: OpportunistBows
+

@@ -1,0 +1,64 @@
+---
+- TemplateId: ModifyArmor
+  Type: ModifyArmor
+  DisplayText: $mod_epicloot_me_modifyarmor_display
+  Description: $mod_epicloot_me_modifyarmor_desc
+  ItemHasArmor: true 
+  AllowedItemTypes: 
+  - Helmet
+  - Chest
+  - Legs
+  AllowedRarities:
+  - Epic
+  - Legendary
+  ValuesPerRarity:
+    Epic: {MinValue: 10, MaxValue: 15, Increment: 1}
+    Legendary: {MinValue: 15, MaxValue: 30, Increment: 1}
+  Prefixes:
+  - $mod_epicloot_me_modifyarmor_prefix1
+  Suffixes:
+  - $mod_epicloot_me_modifyarmor_suffix1
+
+
+
+- TemplateId: ModifyArmorCloak
+  Type: ModifyArmor
+  DisplayText: $mod_epicloot_me_modifyarmor_display
+  Description: $mod_epicloot_me_modifyarmor_desc
+  ItemHasArmor: true 
+  AllowedItemTypes: 
+  - Shoulder
+  AllowedRarities:
+  - Epic
+  - Legendary
+  ValuesPerRarity:
+    Epic: {MinValue: 30, MaxValue: 50, Increment: 1}
+    Legendary: {MinValue: 50, MaxValue: 100, Increment: 1}
+  Prefixes:
+  - $mod_epicloot_me_modifyarmor_prefix1
+  Suffixes:
+  - $mod_epicloot_me_modifyarmor_suffix1
+
+
+
+- TemplateId: ModifyArmorLowHealth
+  Type: ModifyArmorLowHealth
+  DisplayText: $mod_epicloot_me_modifyarmorlowhealth_display
+  Description: $mod_epicloot_me_modifyarmorlowhealth_desc
+  ItemHasArmor: true 
+  AllowedItemTypes: 
+  - Utility
+  AllowedRarities:
+  - Magic
+  - Rare
+  - Epic
+  - Legendary
+  ValuesPerRarity:
+    Magic: {MinValue: 15, MaxValue: 25, Increment: 1}
+    Rare: {MinValue: 15, MaxValue: 25, Increment: 1}
+    Epic: {MinValue: 15, MaxValue: 25, Increment: 1}
+    Legendary: {MinValue: 25, MaxValue: 30, Increment: 1}
+  Prefixes:
+  - $mod_epicloot_me_modifyarmorlowhealth_prefix1
+  Suffixes:
+  - $mod_epicloot_me_modifyarmorlowhealth_suffix1

@@ -1,0 +1,9 @@
+---
+- TemplateId: ModifyParryWindowShield
+  Id: ModifyParryWindowShield
+
+- TemplateId: ModifyParryWindow2H
+  Id: ModifyParryWindow2H
+
+- TemplateId: ModifyParryWindowArmor
+  Id: ModifyParryWindowArmor

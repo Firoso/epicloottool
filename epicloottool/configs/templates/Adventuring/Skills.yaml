@@ -1,0 +1,205 @@
+---
+- TemplateId: AddSkill
+  AllowedItemTypes: 
+  - Helmet
+  ValuesPerRarity:
+    Magic: {MinValue: 5, MaxValue: 10, Increment: 1}
+    Rare: {MinValue: 7, MaxValue: 15, Increment: 1}
+    Epic: {MinValue: 10, MaxValue: 20, Increment: 1}
+    Legendary: {MinValue: 15, MaxValue: 25, Increment: 1}
+
+
+- TemplateId: AddSwordsSkill
+  Type: AddSwordsSkill
+  ParentTemplateIds:
+  - AddSkill
+  AllowedSkillTypes: 
+  - None
+  - Swords
+  AllowedItemTypes: 
+  - OneHandedWeapon
+  - TwoHandedWeapon
+  DisplayText: $mod_epicloot_me_addswordsskill_display
+  Description: $mod_epicloot_me_addswordsskill_desc
+  Prefixes:
+  - $mod_epicloot_me_addswordsskill_prefix1
+  Suffixes:
+  - $mod_epicloot_me_addswordsskill_suffix1
+
+
+  
+- TemplateId: AddKnivesSkill
+  Type: AddKnivesSkill
+  ParentTemplateIds:
+  - AddSkill
+  AllowedSkillTypes: 
+  - None
+  - Knives
+  AllowedItemTypes: 
+  - OneHandedWeapon
+  DisplayText: $mod_epicloot_me_addknivesskill_display
+  Description: $mod_epicloot_me_addknivesskill_desc
+  Prefixes:
+  - $mod_epicloot_me_addknivesskill_prefix1
+  Suffixes:
+  - $mod_epicloot_me_addknivesskill_suffix1
+
+
+  
+- TemplateId: AddClubsSkill
+  ParentTemplateIds:
+  - AddSkill
+
+  Type: AddClubsSkill
+  DisplayText: $mod_epicloot_me_addclubsskill_display
+  Description: $mod_epicloot_me_addclubsskill_desc
+  Prefixes:
+  - $mod_epicloot_me_addclubsskill_prefix1
+  Suffixes:
+  - $mod_epicloot_me_addclubsskill_suffix1
+
+
+  
+- TemplateId: AddPolearmsSkill
+  ParentTemplateIds:
+  - AddSkill
+  Type: AddPolearmsSkill
+  DisplayText: $mod_epicloot_me_addpolearmsskill_display
+  Description: $mod_epicloot_me_addpolearmsskill_desc
+  Prefixes:
+  - $mod_epicloot_me_addpolearmsskill_prefix1
+  Suffixes:
+  - $mod_epicloot_me_addpolearmsskill_suffix1
+
+
+  
+- TemplateId: AddSpearsSkill
+  Type: AddSpearsSkill
+  ParentTemplateIds:
+  - AddSkill
+  AllowedSkillTypes: 
+  - None
+  - Spears
+  AllowedItemTypes: 
+  - OneHandedWeapon
+  DisplayText: $mod_epicloot_me_addspearsskill_display
+  Description: $mod_epicloot_me_addspearsskill_desc
+  Prefixes:
+  - $mod_epicloot_me_addspearsskill_prefix1
+  Suffixes:
+  - $mod_epicloot_me_addspearsskill_suffix1
+
+
+  
+- TemplateId: AddAxesSkill
+  Type: AddAxesSkill
+  ParentTemplateIds:
+  - AddSkill
+  AllowedSkillTypes: 
+  - None
+  - Axes
+  AllowedItemTypes: 
+  - OneHandedWeapon
+  - TwoHandedWeapon
+  DisplayText: $mod_epicloot_me_addaxesskill_display
+  Description: $mod_epicloot_me_addaxesskill_desc
+  Prefixes:
+  - $mod_epicloot_me_addaxesskill_prefix1
+  Suffixes:
+  - $mod_epicloot_me_addaxesskill_suffix1
+
+
+  
+- TemplateId: AddBowsSkill
+  ParentTemplateIds:
+  - AddSkill
+  Type: AddBowsSkill
+  AllowedSkillTypes: 
+  - None
+  - Bows
+  AllowedItemTypes: 
+  - Bow
+  DisplayText: $mod_epicloot_me_addbowsskill_display
+  Description: $mod_epicloot_me_addbowsskill_desc
+  Prefixes:
+  - $mod_epicloot_me_addbowsskill_prefix1
+  Suffixes:
+  - $mod_epicloot_me_addbowsskill_suffix1
+
+
+  
+- TemplateId: AddUnarmedSkill
+  Type: AddUnarmedSkill
+  ParentTemplateIds:
+  - AddSkill
+  AllowedSkillTypes: 
+  - None
+  - Unarmed
+  AllowedItemTypes: 
+  - OneHandedWeapon
+  DisplayText: $mod_epicloot_me_addunarmedskill_display
+  Description: $mod_epicloot_me_addunarmedskill_desc
+  Prefixes:
+  - $mod_epicloot_me_addunarmedskill_prefix1
+  Suffixes:
+  - $mod_epicloot_me_addunarmedskill_suffix1
+
+
+  
+- TemplateId: AddPickaxesSkill
+  Type: AddPickaxesSkill
+  ParentTemplateIds:
+  - AddSkill
+  AllowedSkillTypes: 
+  - None
+  - Pickaxes
+  AllowedItemTypes: 
+  - OneHandedWeapon
+  DisplayText: $mod_epicloot_me_addpickaxesskill_display
+  Description: $mod_epicloot_me_addpickaxesskill_desc
+  Prefixes:
+  - $mod_epicloot_me_addpickaxesskill_prefix1
+  Suffixes:
+  - $mod_epicloot_me_addpickaxesskill_suffix1
+
+
+  
+- TemplateId: AddMovementSkills
+  Type: AddMovementSkills
+  ParentTemplateIds:
+  - AddSkill
+  AllowedItemTypes: 
+  - Shoulder
+  - Utility
+  DisplayText: $mod_epicloot_me_addmovementskills_display
+  Description: $mod_epicloot_me_addmovementskills_desc
+  ValuesPerRarity:
+    Magic: {MinValue: 5, MaxValue: 10, Increment: 1}
+    Rare: {MinValue: 7, MaxValue: 12, Increment: 1}
+    Epic: {MinValue: 10, MaxValue: 16, Increment: 1}
+    Legendary: {MinValue: 15, MaxValue: 20, Increment: 1}
+  Prefixes:
+  - $mod_epicloot_me_addmovementskills_prefix1
+  Suffixes:
+  - $mod_epicloot_me_addmovementskills_suffix1
+
+
+    
+- TemplateId: AddBlockingSkill
+  Type: AddBlockingSkill
+  ParentTemplateIds:
+  - AddSkill
+  AllowedItemTypes: 
+  - Shield
+  - Utility
+  DisplayText: $mod_epicloot_me_addblockingskill_display
+  Description: $mod_epicloot_me_addblockingskill_desc
+  ValuesPerRarity:
+    Magic: {MinValue: 3, MaxValue: 5, Increment: 1}
+    Rare: {MinValue: 4, MaxValue: 7, Increment: 1}
+    Epic: {MinValue: 6, MaxValue: 10, Increment: 1}
+    Legendary: {MinValue: 9, MaxValue: 15, Increment: 1}
+  Prefixes:
+  - $mod_epicloot_me_addblockingskill_prefix1
+  Suffixes:
+  - $mod_epicloot_me_addblockingskill_suffix1

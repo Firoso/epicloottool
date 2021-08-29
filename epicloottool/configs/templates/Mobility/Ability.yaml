@@ -1,0 +1,95 @@
+---
+- TemplateId: AddCarryWeight
+  Type: AddCarryWeight
+  SelectionWeight: 1
+  DisplayText: $mod_epicloot_me_addcarryweight_display
+  Description: $mod_epicloot_me_addcarryweight_desc
+  AllowedItemTypes: 
+  - Utility
+  - Shoulder
+  - Chest
+  - Helmet
+  ValuesPerRarity:
+    Magic: {MinValue: 10, MaxValue: 20, Increment: 1}
+    Rare: {MinValue: 20, MaxValue: 30, Increment: 1}
+    Epic: {MinValue: 30, MaxValue: 50, Increment: 1}
+    Legendary: {MinValue: 50, MaxValue: 100, Increment: 1}
+  Prefixes:
+  - $mod_epicloot_me_addcarryweight_prefix1
+  Suffixes:
+  - $mod_epicloot_me_addcarryweight_suffix1
+
+
+
+- TemplateId: Immovable
+  Type: Immovable
+  SelectionWeight: 1
+  DisplayText: $mod_epicloot_me_immovable_display
+  Description: $mod_epicloot_me_immovable_desc
+  ItemHasNoParryPower: true
+  AllowedItemTypes: 
+  - Shield
+  AllowedRarities:
+  - Rare
+  - Epic
+  - Legendary
+  ValuesPerRarity:
+    Epic: {MinValue: 100, MaxValue: 225, Increment: 1}
+    Legendary: {MinValue: 200, MaxValue: 350, Increment: 1}
+  Prefixes:
+  - $mod_epicloot_me_immovable_prefix1
+  Suffixes:
+  - $mod_epicloot_me_immovable_suffix1
+
+
+- TemplateId: FeatherFall
+  Type: FeatherFall
+  SelectionWeight: 1
+  DisplayText: $mod_epicloot_me_featherfall_display
+  Description: $mod_epicloot_me_featherfall_desc
+  AllowedItemTypes: 
+  - Utility
+  - Shoulder
+  - Legs 
+  AllowedRarities:
+  - Rare
+  - Epic
+  - Legendary
+  Prefixes:
+  - $mod_epicloot_me_featherfall_prefix1
+  Suffixes:
+  - $mod_epicloot_me_featherfall_suffix1
+
+
+- TemplateId: DoubleJump
+  Type: DoubleJump
+  SelectionWeight: 1
+  DisplayText: $mod_epicloot_me_doublejump_display
+  Description: $mod_epicloot_me_doublejump_desc
+  AllowedItemTypes: 
+  - Utility
+  - Shoulder
+  AllowedRarities:
+  - Epic
+  - Legendary
+  Prefixes:
+  - $mod_epicloot_me_doublejump_prefix1
+  Suffixes:
+  - $mod_epicloot_me_doublejump_suffix1
+
+- TemplateId: WaterWalking
+  Type: WaterWalking
+  SelectionWeight: 1
+  DisplayText: $mod_epicloot_me_waterwalking_display
+  Description: $mod_epicloot_me_waterwalking_desc
+  AllowedItemTypes: 
+  - Utility
+  - Shoulder
+  - Legs 
+  AllowedRarities:
+  - Epic
+  - Legendary
+  Prefixes:
+  - $mod_epicloot_me_waterwalking_prefix1
+  Suffixes:
+  - $mod_epicloot_me_waterwalking_suffix1

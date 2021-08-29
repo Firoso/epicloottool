@@ -1,0 +1,6 @@
+---
+- TemplateId: ModifyArmor
+  Id: ModifyArmor
+
+- TemplateId: ModifyArmorCloak
+  Id: ModifyArmorCloak

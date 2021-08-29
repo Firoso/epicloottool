@@ -1,0 +1,12 @@
+---
+- TemplateId: AddFireDamageOneHandedFast
+  Id: AddFireDamageOneHandedFast
+
+- TemplateId: AddFireDamageOneHandedSlow
+  Id: AddFireDamageOneHandedSlow
+
+- TemplateId: AddFireDamageTwoHanded
+  Id: AddFireDamageTwoHanded
+
+- TemplateId: AddFireDamageBows
+  Id: AddFireDamageBows

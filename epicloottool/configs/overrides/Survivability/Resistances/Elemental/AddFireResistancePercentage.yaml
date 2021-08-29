@@ -1,0 +1,27 @@
+---
+- TemplateId: FireResistance
+  Id: AddFireResistance
+  AllowedItemTypes: 
+   - Chest
+   - Helmet
+   - Legs
+
+- TemplateId: FireResistance
+  Id: AddFireResistanceRings
+  AllowedItemTypes: 
+   - Utility
+  AllowedItemNames:
+   - Gold Ruby Ring
+   - Silver Ring
+
+- TemplateId: FireResistance
+  Id: AddFireResistanceBelt
+  AllowedItemTypes: 
+   - Utility
+  AllowedItemNames:
+  - Leather Belt
+  - Aescfell Belt
+  - Stánbrysan Belt
+  - Eorðtilia Belt
+  - Stulor Belt
+  - Casul Belt

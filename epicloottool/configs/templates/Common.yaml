@@ -1,0 +1,18 @@
+---
+- TemplateId: RingsOnly
+  AllowedItemTypes:
+  - Utility
+  AllowedItemNames:
+  - Gold Ruby Ring
+  - Silver Ring
+
+- TemplateId: BeltsOnly
+  AllowedItemTypes:
+  - Utility
+  AllowedItemNames:
+  - Leather Belt
+  - Aescfell Belt
+  - Stánbrysan Belt
+  - Eorðtilia Belt
+  - Stulor Belt
+  - Casul Belt

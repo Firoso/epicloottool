@@ -1,0 +1,48 @@
+---
+- TemplateId: ModifyMovementSpeed
+  Type: ModifyMovementSpeed
+  ExclusiveEffectTypes: 
+  - RemoveSpeedPenalty
+  AllowedItemTypes:
+  - Legs
+  - Shoulder
+  - Utility
+  DisplayText: $mod_epicloot_me_modifymovementspeed_display
+  Description: $mod_epicloot_me_modifymovementspeed_desc
+  AllowedRarities:
+  - Epic
+  - Legendary
+  ValuesPerRarity:
+    Epic: {MinValue: 5, MaxValue: 8, Increment: 1}
+    Legendary: {MinValue: 6, MaxValue: 10, Increment: 1}
+  Prefixes:
+  - $mod_epicloot_me_modifymovementspeed_prefix1
+  Suffixes:
+  - $mod_epicloot_me_modifymovementspeed_suffix1
+
+
+
+- TemplateId: ModifyMovementSpeedLowHealth
+  Type: ModifyMovementSpeedLowHealth
+  ExclusiveEffectTypes: 
+  - RemoveSpeedPenalty
+  AllowedItemTypes:
+  - Legs
+  - Shoulder
+  - Utility
+  DisplayText: $mod_epicloot_me_modifymovementspeedlowhealth_display
+  Description: $mod_epicloot_me_modifymovementspeedlowhealth_desc
+  AllowedRarities:
+  - Magic
+  - Rare
+  - Epic
+  - Legendary
+  ValuesPerRarity:
+    Magic: {MinValue: 8, MaxValue: 12, Increment: 1}
+    Rare: {MinValue: 10, MaxValue: 15, Increment: 1}
+    Epic: {MinValue: 12, MaxValue: 18, Increment: 1}
+    Legendary: {MinValue: 14, MaxValue: 21, Increment: 1}
+  Prefixes:
+  - $mod_epicloot_me_modifymovementspeedlowhealth_prefix1
+  Suffixes:
+  - $mod_epicloot_me_modifymovementspeedlowhealth_suffix1

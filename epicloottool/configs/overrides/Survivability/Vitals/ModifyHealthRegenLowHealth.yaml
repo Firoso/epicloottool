@@ -1,0 +1,35 @@
+---
+- TemplateId: ModifyHealthRegenLowHealthStrong
+  Id: ModifyHealthRegenLowHealthChest
+  AllowedItemTypes: 
+   - Chest
+
+- TemplateId: ModifyHealthRegenLowHealthStrong
+  Id: ModifyHealthRegenLowHealthHelmet
+  AllowedItemTypes: 
+   - Helmet
+
+- TemplateId: ModifyHealthRegenLowHealthWeak
+  Id: ModifyHealthRegenLowHealthLegs
+  AllowedItemTypes: 
+   - Legs
+
+- TemplateId: ModifyHealthRegenLowHealthWeak
+  Id: ModifyHealthRegenLowHealthRings
+  AllowedItemTypes: 
+   - Utility
+  AllowedItemNames:
+   - Gold Ruby Ring
+   - Silver Ring
+
+- TemplateId: ModifyHealthRegenLowHealthWeak
+  Id: ModifyHealthRegenLowHealthBelt
+  AllowedItemTypes: 
+   - Utility
+  AllowedItemNames:
+  - Leather Belt
+  - Aescfell Belt
+  - Stánbrysan Belt
+  - Eorðtilia Belt
+  - Stulor Belt
+  - Casul Belt

@@ -1,0 +1,13 @@
+---
+- TemplateId: AddSpiritDamageOneHandedFast
+  Id: AddSpiritDamageOneHandedFast
+
+- TemplateId: AddSpiritDamageOneHandedSlow
+  Id: AddSpiritDamageOneHandedSlow
+
+- TemplateId: AddSpiritDamageTwoHanded
+  Id: AddSpiritDamageTwoHanded
+
+- TemplateId: AddSpiritDamageBows
+  Id: AddSpiritDamageBows
+

@@ -1,0 +1,74 @@
+---
+- TemplateId: PhysicalResistance
+  SelectionWeight: 1
+  ValuesPerRarity:
+    Magic: {MinValue: 3, MaxValue: 5, Increment: 1}
+    Rare: {MinValue: 4, MaxValue: 7, Increment: 1}
+    Epic: {MinValue: 5, MaxValue: 9, Increment: 1}
+    Legendary: {MinValue: 6, MaxValue: 12, Increment: 1}
+
+
+
+- TemplateId: PiercingResistance
+  ParentTemplateIds:
+  - PhysicalResistance
+  Type: AddPiercingResistancePercentage
+  DisplayText: $mod_epicloot_me_addpiercingresistancepercentage_display
+  Description: $mod_epicloot_me_addpiercingresistancepercentage_desc
+  ExclusiveEffectTypes:
+  - AddBluntResistancePercentage
+  - AddSlashingResistancePercentage
+  Prefixes:
+  - $mod_epicloot_me_addpiercingresistancepercentage_prefix1
+  Suffixes:
+  - $mod_epicloot_me_addpiercingresistancepercentage_suffix1
+
+
+
+- TemplateId: BluntResistance
+  ParentTemplateIds:
+  - PhysicalResistance
+  Type: AddBluntResistancePercentage
+  DisplayText: $mod_epicloot_me_addbluntresistancepercentage_display
+  Description: $mod_epicloot_me_addbluntresistancepercentage_desc
+  ExclusiveEffectTypes:
+  - AddPiercingResistancePercentage
+  - AddSlashingResistancePercentage
+  Prefixes:
+  - $mod_epicloot_me_addbluntresistancepercentage_prefix1
+  Suffixes:
+  - $mod_epicloot_me_addbluntresistancepercentage_suffix1
+
+
+
+- TemplateId: SlashingResistance
+  ParentTemplateIds:
+  - PhysicalResistance
+  Type: AddSlashingResistancePercentage
+  DisplayText: $mod_epicloot_me_addslashingresistancepercentage_display
+  Description: $mod_epicloot_me_addslashingresistancepercentage_desc
+  ExclusiveEffectTypes:
+  - AddPiercingResistancePercentage
+  - AddBluntResistancePercentage
+  Prefixes:
+  - $mod_epicloot_me_addslashingresistancepercentage_prefix1
+  Suffixes:
+  - $mod_epicloot_me_addslashingresistancepercentage_suffix1
+
+
+- TemplateId: AddPhysicalResistance
+  ParentTemplateIds:
+  - PhysicalResistance
+  Type: AddPhysicalResistancePercentage
+  DisplayText: $mod_epicloot_me_addphysicalresistancepercentage_display
+  Description: $mod_epicloot_me_addphysicalresistancepercentage_desc
+  AllowedRarities:
+  - Epic
+  - Legendary
+  ValuesPerRarity:
+    Epic: {MinValue: 6, MaxValue: 7, Increment: 1}
+    Legendary: {MinValue: 8, MaxValue: 9, Increment: 1}
+  Prefixes:
+  - $mod_epicloot_me_addphysicalresistancepercentage_prefix1
+  Suffixes:
+  - $mod_epicloot_me_addphysicalresistancepercentage_suffix1  

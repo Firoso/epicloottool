@@ -1,0 +1,125 @@
+---
+- TemplateId: ModifyDurability
+  Type: ModifyDurability
+  SelectionWeight: 1
+  DisplayText: $mod_epicloot_me_modifydurability_display
+  Description: $mod_epicloot_me_modifydurability_desc
+  ExclusiveEffectTypes:
+  - Indestructible
+  AllowedItemTypes: 
+  - OneHandedWeapon
+  - TwoHandedWeapon
+  - Bow
+  - Torch
+  - Shield
+  - Tool
+  - Helmet
+  - Chest
+  - Legs
+  - Shoulder
+  ItemUsesDurability: true
+  ValuesPerRarity:
+    Magic: {MinValue: 30, MaxValue: 50, Increment: 5}
+    Rare: {MinValue: 40, MaxValue: 70, Increment: 5}
+    Epic: {MinValue: 60, MaxValue: 100, Increment: 5}
+    Legendary: {MinValue: 80, MaxValue: 125, Increment: 5}
+  Prefixes:
+  - $mod_epicloot_me_modifydurability_prefix1
+  - $mod_epicloot_me_modifydurability_prefix2
+  - $mod_epicloot_me_modifydurability_prefix3
+  Suffixes:
+  - $mod_epicloot_me_modifydurability_suffix1
+  - $mod_epicloot_me_modifydurability_suffix2
+  - $mod_epicloot_me_modifydurability_suffix3
+  - $mod_epicloot_me_modifydurability_suffix4
+
+
+
+- TemplateId: RemoveSpeedPenalty
+  Type: RemoveSpeedPenalty
+  SelectionWeight: 1
+  DisplayText: $mod_epicloot_me_removespeedpenalty_display
+  Description: $mod_epicloot_me_removespeedpenalty_desc
+  ItemHasNegativeMovementSpeedModifier: true
+  ExclusiveEffectTypes: 
+  - ModifyMovementSpeed
+  AllowedItemTypes: 
+  - OneHandedWeapon
+  - TwoHandedWeapon
+  - Bow
+  - Torch
+  - Shield
+  - Tool
+  - Helmet
+  - Chest
+  - Legs
+  - Shoulder
+  Prefixes:
+  - $mod_epicloot_me_removespeedpenalty_prefix1
+  - $mod_epicloot_me_removespeedpenalty_prefix2
+  - $mod_epicloot_me_removespeedpenalty_prefix3
+  Suffixes:
+  - $mod_epicloot_me_removespeedpenalty_suffix1
+  - $mod_epicloot_me_removespeedpenalty_suffix2
+
+
+
+- TemplateId: Glowing
+  Type: Glowing
+  SelectionWeight: 1
+  DisplayText: $mod_epicloot_me_glowing_display
+  Description: $mod_epicloot_me_glowing_desc
+  EquipFx: GlowingAura
+  AllowedItemTypes: 
+  - Utility
+  - Shoulder
+  - Chest
+  - Helmet
+  Prefixes:
+  - $mod_epicloot_me_glowing_prefix1
+  Suffixes:
+  - $mod_epicloot_me_glowing_suffix1
+
+
+
+- TemplateId: Waterproof
+  Type: Waterproof
+  SelectionWeight: 1
+  DisplayText: $mod_epicloot_me_waterproof_display
+  Description: $mod_epicloot_me_waterproof_desc
+  AllowedItemTypes: 
+  - Shoulder
+  - Utility
+  - Legs
+  Prefixes:
+  - $mod_epicloot_me_waterproof_prefix1
+  Suffixes:
+  - $mod_epicloot_me_waterproof_suffix1
+
+
+
+- TemplateId: Indestructible
+  Type: Indestructible
+  SelectionWeight: 1
+  DisplayText: $mod_epicloot_me_indestructible_display
+  Description: $mod_epicloot_me_indestructible_desc
+  ExclusiveEffectTypes:
+  - ModifyDurability
+  AllowedItemTypes: 
+  - OneHandedWeapon
+  - TwoHandedWeapon
+  - Bow
+  - Torch
+  - Shield
+  - Tool
+  - Helmet
+  - Chest
+  - Legs
+  - Shoulder
+  ItemUsesDurability: true
+  AllowedRarities:
+  - Legendary
+  Prefixes:
+  - $mod_epicloot_me_indestructible_prefix1
+  Suffixes:
+  - $mod_epicloot_me_indestructible_suffix1

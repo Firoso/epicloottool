@@ -32,8 +32,12 @@ namespace epicloottool
             this.ExcludedItemTypes = ReconcileValue(this.ExcludedItemTypes, parentTemplate, p => p.ExcludedItemTypes, nameof(ExcludedItemTypes), merge: true, mergeResolver: ListMerge);
             this.AllowedItemTypes = ReconcileValue(this.AllowedItemTypes, parentTemplate, p => p.AllowedItemTypes, nameof(AllowedItemTypes), merge: true, mergeResolver: ListMerge);
             this.ExclusiveEffectTypes = ReconcileValue(this.ExclusiveEffectTypes, parentTemplate, p => p.ExclusiveEffectTypes, nameof(ExclusiveEffectTypes), merge: true, mergeResolver: ListMerge);
+            this.RequiredEffectTypes = ReconcileValue(this.RequiredEffectTypes, parentTemplate, p => p.RequiredEffectTypes, nameof(RequiredEffectTypes), merge: true, mergeResolver: ListMerge);
             this.ExcludedItemNames = ReconcileValue(this.ExcludedItemNames, parentTemplate, p => p.ExcludedItemNames, nameof(ExcludedItemNames), merge: true, mergeResolver: ListMerge);
             this.ValuesPerRarity = ReconcileValue(this.ValuesPerRarity, parentTemplate, p => p.ValuesPerRarity, nameof(ValuesPerRarity));
+            this.Prefixes = ReconcileValue(this.Prefixes, parentTemplate, p => p.Prefixes, nameof(Prefixes), merge: true, mergeResolver: ListMerge);
+            this.Suffixes = ReconcileValue(this.Suffixes, parentTemplate, p => p.Suffixes, nameof(Suffixes), merge: true, mergeResolver: ListMerge);
+            this.EquipFx = ReconcileValue(this.EquipFx, parentTemplate, p => p.EquipFx, nameof(EquipFx));
         }
 
         private T ReconcileValue<T>(T overrideValue, MagicItemEffectTemplate parentTemplate, Func<MagicItemEffectTemplate, T> parentValueResolver, string propertyName, bool merge = false, Func<IEnumerable<T>, T, T> mergeResolver = null)

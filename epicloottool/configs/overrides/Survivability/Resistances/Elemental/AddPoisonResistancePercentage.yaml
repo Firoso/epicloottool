@@ -1,0 +1,27 @@
+---
+- TemplateId: PoisonResistance
+  Id: AddPoisonResistance
+  AllowedItemTypes: 
+   - Chest
+   - Helmet
+   - Legs
+
+- TemplateId: PoisonResistance
+  Id: AddPoisonResistanceRings
+  AllowedItemTypes: 
+   - Utility
+  AllowedItemNames:
+   - Gold Ruby Ring
+   - Silver Ring
+
+- TemplateId: PoisonResistance
+  Id: AddPoisonResistanceBelt
+  AllowedItemTypes: 
+   - Utility
+  AllowedItemNames:
+  - Leather Belt
+  - Aescfell Belt
+  - Stánbrysan Belt
+  - Eorðtilia Belt
+  - Stulor Belt
+  - Casul Belt

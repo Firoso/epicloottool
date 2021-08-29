@@ -1,0 +1,27 @@
+---
+- TemplateId: AddPhysicalResistance
+  Id: AddPhysicalResistance
+  AllowedItemTypes: 
+   - Chest
+   - Helmet
+   - Legs
+
+- TemplateId: AddPhysicalResistance
+  Id: AddPhysicalResistanceRings
+  AllowedItemTypes: 
+   - Utility
+  AllowedItemNames:
+   - Gold Ruby Ring
+   - Silver Ring
+
+- TemplateId: AddPhysicalResistance
+  Id: AddPhysicalResistanceBelts
+  AllowedItemTypes: 
+   - Utility
+  AllowedItemNames:
+  - Leather Belt
+  - Aescfell Belt
+  - Stánbrysan Belt
+  - Eorðtilia Belt
+  - Stulor Belt
+  - Casul Belt

@@ -1,0 +1,27 @@
+---
+- TemplateId: PiercingResistance
+  Id: AddPiercingResistance
+  AllowedItemTypes: 
+   - Chest
+   - Helmet
+   - Legs
+
+- TemplateId: PiercingResistance
+  Id: AddPiercingResistanceRings
+  AllowedItemTypes: 
+   - Utility
+  AllowedItemNames:
+   - Gold Ruby Ring
+   - Silver Ring
+
+- TemplateId: PiercingResistance
+  Id: AddPiercingResistanceBelt
+  AllowedItemTypes: 
+   - Utility
+  AllowedItemNames:
+  - Leather Belt
+  - Aescfell Belt
+  - Stánbrysan Belt
+  - Eorðtilia Belt
+  - Stulor Belt
+  - Casul Belt

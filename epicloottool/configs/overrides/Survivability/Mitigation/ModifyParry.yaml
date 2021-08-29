@@ -1,0 +1,9 @@
+---
+- TemplateId: ModifyParryShield
+  Id: ModifyParryShield
+
+- TemplateId: ModifyParry2H
+  Id: ModifyParry2H
+
+- TemplateId: ModifyParryArmor
+  Id: ModifyParryArmor

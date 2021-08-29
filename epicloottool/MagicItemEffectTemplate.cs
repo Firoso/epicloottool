@@ -68,12 +68,15 @@ namespace epicloottool
             this.ExcludedItemTypes = ReconcileValue(this.ExcludedItemTypes, confirmedParents, p => p.ExcludedItemTypes, nameof(ExcludedItemTypes), allowConflict: true, conflictResolver: ListMerge);
             this.AllowedItemTypes = ReconcileValue(this.AllowedItemTypes, confirmedParents, p => p.AllowedItemTypes, nameof(AllowedItemTypes), allowConflict: true, conflictResolver: ListMerge);
             this.ExclusiveEffectTypes = ReconcileValue(this.ExclusiveEffectTypes, confirmedParents, p => p.ExclusiveEffectTypes, nameof(ExclusiveEffectTypes), allowConflict: true, conflictResolver: ListMerge);
+            this.RequiredEffectTypes = ReconcileValue(this.RequiredEffectTypes, confirmedParents, p => p.RequiredEffectTypes, nameof(RequiredEffectTypes), allowConflict: true, conflictResolver: ListMerge);
             this.ExcludedItemNames = ReconcileValue(this.ExcludedItemNames, confirmedParents, p => p.ExcludedItemNames, nameof(ExcludedItemNames), allowConflict: true, conflictResolver: ListMerge);
             this.ValuesPerRarity = ReconcileValue(this.ValuesPerRarity, confirmedParents, p => p.ValuesPerRarity, nameof(ValuesPerRarity), allowConflict: true, conflictResolver: ValuesPerRarityMerge);
-
+            this.Prefixes = ReconcileValue(this.Prefixes, confirmedParents, p => p.Prefixes, nameof(Prefixes), allowConflict: true, conflictResolver: ListMerge);
+            this.Suffixes = ReconcileValue(this.Suffixes, confirmedParents, p => p.Suffixes, nameof(Suffixes), allowConflict: true, conflictResolver: ListMerge);
+            this.EquipFx = ReconcileValue(this.EquipFx, confirmedParents, p => p.EquipFx, nameof(EquipFx));
             this.IsReconciled = true;
             this.ParentTemplates = new List<MagicItemEffectTemplate>(confirmedParents);
-
+            
             return true;
         }
 

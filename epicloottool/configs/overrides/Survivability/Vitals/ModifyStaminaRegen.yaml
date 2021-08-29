@@ -1,0 +1,31 @@
+---
+- TemplateId: ModifyStaminaRegenStrong
+  Id: ModifyStaminaRegenChestHelmet
+  AllowedItemTypes: 
+   - "Chest"
+   - "Helmet"
+
+- TemplateId: ModifyStaminaRegenWeak
+  Id: ModifyStaminaRegenLegs
+  AllowedItemTypes: 
+   - "Legs"
+
+- TemplateId: ModifyStaminaRegenWeak
+  Id: ModifyStaminaRegenRings
+  AllowedItemTypes: 
+   - "Utility"
+  AllowedItemNames:
+   - "Gold Ruby Ring"
+   - "Silver Ring"
+
+- TemplateId: ModifyStaminaRegenWeak
+  Id: ModifyStaminaRegenBelt
+  AllowedItemTypes: 
+   - "Utility"
+  AllowedItemNames:
+  - Leather Belt
+  - Aescfell Belt
+  - Stánbrysan Belt
+  - Eorðtilia Belt
+  - Stulor Belt
+  - Casul Belt

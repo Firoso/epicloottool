@@ -27,11 +27,15 @@ namespace epicloottool
         public virtual List<ItemDrop.ItemData.ItemType> ExcludedItemTypes { get; set; } = null;
         public virtual List<ItemDrop.ItemData.ItemType> AllowedItemTypes { get; set; } = null;
         public virtual List<string> ExclusiveEffectTypes { get; set; } = null;
+        public virtual List<string> RequiredEffectTypes { get; set; } = null;
         public virtual List<string> ExcludedItemNames { get; set; } = null;
         public virtual ValuesPerRarityDef ValuesPerRarity { get; set; } = null;
         public virtual string DisplayText { get; set; } = null;
         public virtual string Description { get; set; } = null;
+        public virtual List<string> Prefixes { get; set; } = null;
+        public virtual List<string> Suffixes { get; set; } = null;
         public virtual float? SelectionWeight { get; set; } = null;
+        public virtual string EquipFx { get; set; } = null;
 
         protected ValuesPerRarityDef ValuesPerRarityMerge(IEnumerable<ValuesPerRarityDef> values, ValuesPerRarityDef currentValue)
         {

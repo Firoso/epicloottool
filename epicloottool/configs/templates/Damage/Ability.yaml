@@ -1,0 +1,419 @@
+---
+- TemplateId: ModifyDamageLowHealth
+  Type: ModifyDamageLowHealth
+  DisplayText: $mod_epicloot_me_modifydamagelowhealth_display
+  Description: $mod_epicloot_me_modifydamagelowhealth_desc
+  AllowedItemTypes: 
+  - OneHandedWeapon
+  - TwoHandedWeapon
+  - Bow
+  - Helmet
+  ExcludedSkillTypes:
+  - Pickaxes
+  ValuesPerRarity:
+    Magic: {MinValue: 5, MaxValue: 10, Increment: 1}
+    Rare: {MinValue: 10, MaxValue: 15, Increment: 1}
+    Epic: {MinValue: 15, MaxValue: 20, Increment: 1}
+    Legendary: {MinValue: 20, MaxValue: 25, Increment: 1}
+  Prefixes:
+  - $mod_epicloot_me_modifydamagelowhealth_prefix1
+  Suffixes:
+  - $mod_epicloot_me_modifydamagelowhealth_suffix1
+
+
+
+- TemplateId: ModifyBackstab
+  Type: ModifyBackstab
+  DisplayText: $mod_epicloot_me_modifybackstab_display
+  Description: $mod_epicloot_me_modifybackstab_desc
+  AllowedItemTypes: 
+  - OneHandedWeapon
+  - Bow
+  - Shoulder
+  AllowedSkillTypes: 
+  - Knives
+  - Bows
+  - None
+  ValuesPerRarity:
+    Magic: {MinValue: 5, MaxValue: 10, Increment: 1}
+    Rare: {MinValue: 10, MaxValue: 15, Increment: 1}
+    Epic: {MinValue: 15, MaxValue: 20, Increment: 1}
+    Legendary: {MinValue: 20, MaxValue: 25, Increment: 1}
+  Prefixes:
+  - $mod_epicloot_me_modifybackstab_prefix1
+  - $mod_epicloot_me_modifybackstab_prefix2
+  Suffixes:
+  - $mod_epicloot_me_modifybackstab_suffix1
+  - $mod_epicloot_me_modifybackstab_suffix2
+
+
+
+- TemplateId: ModifyAttackSpeed
+  Type: ModifyAttackSpeed
+  DisplayText: $mod_epicloot_me_modifyattackspeed_display
+  Description: $mod_epicloot_me_modifyattackspeed_desc
+  AllowedItemTypes: 
+  - OneHandedWeapon
+  - TwoHandedWeapon
+  - Bow
+  - Tool
+  - Helmet
+  ValuesPerRarity:
+    Magic: {MinValue: 3, MaxValue: 7, Increment: 1}
+    Rare: {MinValue: 5, MaxValue: 9, Increment: 1}
+    Epic: {MinValue: 7, MaxValue: 11, Increment: 1}
+    Legendary: {MinValue: 9, MaxValue: 13, Increment: 1}
+  Prefixes:
+  - $mod_epicloot_me_modifyattackspeed_prefix1
+  Suffixes:
+  - $mod_epicloot_me_modifyattackspeed_suffix1
+
+
+
+- TemplateId: ModifyAttackSpeedLowHealth
+  Type: ModifyAttackSpeedLowHealth
+  DisplayText: $mod_epicloot_me_modifyattackspeedlowhealth_display
+  Description: $mod_epicloot_me_modifyattackspeedlowhealth_desc
+  AllowedItemTypes: 
+  - OneHandedWeapon
+  - TwoHandedWeapon
+  - Bow
+  - Tool
+  - Helmet
+  ValuesPerRarity:
+    Magic: {MinValue: 5, MaxValue: 13, Increment: 1}
+    Rare: {MinValue: 9, MaxValue: 16, Increment: 1}
+    Epic: {MinValue: 13, MaxValue: 20, Increment: 1}
+    Legendary: {MinValue: 17, MaxValue: 25, Increment: 1}
+  Prefixes:
+  - $mod_epicloot_me_modifyattackspeedlowhealth_prefix1
+  Suffixes:
+  - $mod_epicloot_me_modifyattackspeedlowhealth_suffix1
+
+
+
+- TemplateId: ModifyStaggerDuration
+  Type: ModifyStaggerDuration
+  DisplayText: $mod_epicloot_me_modifystaggerduration_display
+  Description: $mod_epicloot_me_modifystaggerduration_desc
+  AllowedItemTypes: 
+  - OneHandedWeapon
+  - TwoHandedWeapon
+  - Bow
+  - Shield
+  - Helmet
+  ExcludedSkillTypes:
+  - Pickaxes
+  ValuesPerRarity:
+    Magic: {MinValue: 3, MaxValue: 7, Increment: 1}
+    Rare: {MinValue: 5, MaxValue: 9, Increment: 1}
+    Epic: {MinValue: 7, MaxValue: 11, Increment: 1}
+    Legendary: {MinValue: 9, MaxValue: 13, Increment: 1}
+  Prefixes:
+  - $mod_epicloot_me_modifystaggerduration_prefix1
+  Suffixes:
+  - $mod_epicloot_me_modifystaggerduration_suffix1
+
+
+
+- TemplateId: ModifyStaggerDamage
+  Type: ModifyStaggerDamage
+  DisplayText: $mod_epicloot_me_modifystaggerdamage_display
+  Description: $mod_epicloot_me_modifystaggerdamage_desc
+  AllowedItemTypes: 
+  - OneHandedWeapon
+  - TwoHandedWeapon
+  - Bow
+  ExcludedSkillTypes:
+  - Pickaxes
+  ValuesPerRarity:
+    Magic: {MinValue: 5, MaxValue: 13, Increment: 1}
+    Rare: {MinValue: 9, MaxValue: 16, Increment: 1}
+    Epic: {MinValue: 13, MaxValue: 20, Increment: 1}
+    Legendary: {MinValue: 17, MaxValue: 25, Increment: 1}
+  Prefixes:
+  - $mod_epicloot_me_modifystaggerdamage_prefix1
+  Suffixes:
+  - $mod_epicloot_me_modifystaggerdamage_suffix1
+
+
+
+- TemplateId: ReflectDamage
+  Type: ReflectDamage
+  DisplayText: $mod_epicloot_me_reflectdamage_display
+  Description: $mod_epicloot_me_reflectdamage_desc
+  AllowedItemTypes: 
+  - Chest
+  - Shield
+  - Shoulder
+  - Utility
+  AllowedRarities:
+  - Rare
+  - Epic
+  - Legendary
+  ValuesPerRarity:
+    Rare: {MinValue: 8, MaxValue: 13, Increment: 1}
+    Epic: {MinValue: 11, MaxValue: 16, Increment: 1}
+    Legendary: {MinValue: 14, MaxValue: 19, Increment: 1}
+  Prefixes:
+  - $mod_epicloot_me_reflectdamage_prefix1
+  Suffixes:
+  - $mod_epicloot_me_reflectdamage_suffix1
+
+
+
+- TemplateId: QuickDraw
+  Type: QuickDraw
+  DisplayText: $mod_epicloot_me_quickdraw_display
+  Description: $mod_epicloot_me_quickdraw_desc
+  AllowedItemTypes: 
+  - Helmet
+  - Bow
+  AllowedRarities:
+  - Rare
+  - Epic
+  - Legendary
+  ValuesPerRarity:
+    Rare: {MinValue: 5, MaxValue: 10, Increment: 1}
+    Epic: {MinValue: 10, MaxValue: 15, Increment: 1}
+    Legendary: {MinValue: 15, MaxValue: 20, Increment: 1}
+  Prefixes:
+  - $mod_epicloot_me_quickdraw_prefix1
+  Suffixes:
+  - $mod_epicloot_me_quickdraw_suffix1
+
+
+
+- TemplateId: Throwable
+  Type: Throwable
+  DisplayText: $mod_epicloot_me_throwable_display
+  Description: $mod_epicloot_me_throwable_desc
+  AllowedItemTypes: 
+  - OneHandedWeapon
+  ExcludedSkillTypes:
+  - Pickaxes
+  - Spears
+  AllowedRarities:
+  - Epic
+  - Legendary
+  Prefixes:
+  - $mod_epicloot_me_throwable_prefix1
+  Suffixes:
+  - $mod_epicloot_me_throwable_suffix1
+
+
+
+- TemplateId: RecallWeaponSpears
+  Type: RecallWeapon
+  DisplayText: $mod_epicloot_me_recallweapon_display
+  Description: $mod_epicloot_me_recallweapon_desc
+  AllowedItemTypes: 
+  - OneHandedWeapon
+  AllowedSkillTypes:
+  - Pickaxes
+  - Spears
+  AllowedRarities:
+  - Epic
+  - Legendary
+  Prefixes:
+  - $mod_epicloot_me_recallweapon_prefix1
+  Suffixes:
+  - $mod_epicloot_me_recallweapon_suffix1
+
+- TemplateId: RecallWeapon
+  Type: RecallWeapon
+  DisplayText: $mod_epicloot_me_recallweapon_display
+  Description: $mod_epicloot_me_recallweapon_desc
+  AllowedItemTypes: 
+  - OneHandedWeapon
+  ExcludedSkillTypes:
+  - Pickaxes
+  - Spears
+  RequiredEffectTypes: 
+  - Throwable
+  AllowedRarities:
+  - Epic
+  - Legendary
+  Prefixes:
+  - $mod_epicloot_me_recallweapon_prefix1
+  Suffixes:
+  - $mod_epicloot_me_recallweapon_suffix1
+
+
+  
+- TemplateId: ParalyzeWeapon
+  Type: Paralyze
+  DisplayText: $mod_epicloot_me_paralyze_display
+  Description: $mod_epicloot_me_paralyze_desc
+  AllowedItemTypes: 
+  - OneHandedWeapon
+  - TwoHandedWeapon
+  - Bow
+  ExcludedSkillTypes:
+  - Pickaxes
+  AllowedRarities:
+  - Epic
+  - Legendary
+  ValuesPerRarity:
+    Epic: {MinValue: 0.5, MaxValue: 1.0, Increment: 0.5}
+    Legendary: {MinValue: 1.0, MaxValue: 1.5, Increment: 0.5}
+  Prefixes:
+  - $mod_epicloot_me_paralyze_prefix1
+  Suffixes:
+  - $mod_epicloot_me_paralyze_suffix1
+
+
+
+- TemplateId: ParalyzeEquipment
+  Type: Paralyze
+  DisplayText: $mod_epicloot_me_paralyze_display
+  Description: $mod_epicloot_me_paralyze_desc
+  AllowedItemTypes: 
+  - Shoulder
+  - Utility
+  ExcludedSkillTypes:
+  - Pickaxes
+  AllowedRarities:
+  - Epic
+  - Legendary
+  ValuesPerRarity:
+    Epic: {MinValue: 0.5, MaxValue: 1.0, Increment: 0.5}
+    Legendary: {MinValue: 1.0, MaxValue: 1.5, Increment: 0.5}
+  Prefixes:
+  - $mod_epicloot_me_paralyze_prefix1
+  Suffixes:
+  - $mod_epicloot_me_paralyze_suffix1
+
+
+
+- TemplateId: ExplosiveArrows
+  Type: ExplosiveArrows
+  DisplayText: $mod_epicloot_me_explosivearrows_display
+  Description: $mod_epicloot_me_explosivearrows_desc
+  AllowedItemTypes: 
+  - Bow
+  ExcludedSkillTypes:
+  - Pickaxes
+  AllowedRarities:
+  - Epic
+  - Legendary
+  ValuesPerRarity:
+    Epic: {MinValue: 10, MaxValue: 15, Increment: 1}
+    Legendary: {MinValue: 15, MaxValue: 20, Increment: 1}
+  Prefixes:
+  - $mod_epicloot_me_explosivearrows_prefix1
+  Suffixes:
+  - $mod_epicloot_me_explosivearrows_suffix1
+
+
+
+
+- TemplateId: Executioner
+  Type: Executioner
+  DisplayText: $mod_epicloot_me_executioner_display
+  Description: $mod_epicloot_me_executioner_desc
+  AllowedItemTypes: 
+  - OneHandedWeapon
+  - TwoHandedWeapon
+  - Bow
+  - Helmet
+  ExcludedSkillTypes:
+  - Pickaxes
+  AllowedRarities:
+  - Epic
+  - Legendary
+  ValuesPerRarity:
+    Epic: {MinValue: 50, MaxValue: 100, Increment: 1}
+    Legendary: {MinValue: 75, MaxValue: 175, Increment: 1}
+  Prefixes:
+  - $mod_epicloot_me_executioner_prefix1
+  Suffixes:
+  - $mod_epicloot_me_executioner_suffix1
+
+
+
+  
+- TemplateId: OpportunistHelmet
+  Type: Opportunist
+  DisplayText: $mod_epicloot_me_opportunist_display
+  Description: $mod_epicloot_me_opportunist_desc
+  AllowedItemTypes: 
+  - Helmet
+  AllowedRarities:
+  - Epic
+  - Legendary
+  ValuesPerRarity:
+    Epic: {MinValue: 5, MaxValue: 10, Increment: 1}
+    Legendary: {MinValue: 10, MaxValue: 15, Increment: 1}
+  Prefixes:
+  - $mod_epicloot_me_opportunist_prefix1
+  Suffixes:
+  - $mod_epicloot_me_opportunist_suffix1
+
+
+
+- TemplateId: OpportunistKnives
+  Type: Opportunist
+  DisplayText: $mod_epicloot_me_opportunist_display
+  Description: $mod_epicloot_me_opportunist_desc
+  AllowedItemTypes: 
+  - OneHandedWeapon
+  AllowedSkillTypes:
+  - Knives
+  AllowedRarities:
+  - Epic
+  - Legendary
+  ValuesPerRarity:
+    Epic: {MinValue: 10, MaxValue: 15, Increment: 1}
+    Legendary: {MinValue: 15, MaxValue: 20, Increment: 1}
+  Prefixes:
+  - $mod_epicloot_me_opportunist_prefix1
+  Suffixes:
+  - $mod_epicloot_me_opportunist_suffix1
+
+
+
+
+- TemplateId: OpportunistBows
+  Type: Opportunist
+  DisplayText: $mod_epicloot_me_opportunist_display
+  Description: $mod_epicloot_me_opportunist_desc
+  AllowedItemTypes: 
+  - Bow
+  AllowedRarities:
+  - Epic
+  - Legendary
+  ValuesPerRarity:
+    Epic: {MinValue: 5, MaxValue: 10, Increment: 1}
+    Legendary: {MinValue: 10, MaxValue: 15, Increment: 1}
+  Prefixes:
+  - $mod_epicloot_me_opportunist_prefix1
+  Suffixes:
+  - $mod_epicloot_me_opportunist_suffix1
+
+
+
+
+  
+- TemplateId: Slow
+  Type: Slow
+  DisplayText: $mod_epicloot_me_slow_display
+  Description: $mod_epicloot_me_slow_desc
+  AllowedItemTypes: 
+  - Bow
+  - OneHandedWeapon
+  - TwoHandedWeapon
+  - Shoulder
+  - Utility
+  ExcludedSkillTypes:
+  - Pickaxes
+  AllowedRarities:
+  - Legendary
+  ValuesPerRarity:
+    Legendary: {MinValue: 2, MaxValue: 5, Increment: 1}
+  Prefixes:
+  - $mod_epicloot_me_slow_prefix1
+  Suffixes:
+  - $mod_epicloot_me_slow_suffix1
+
+

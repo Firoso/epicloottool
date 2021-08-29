@@ -1,0 +1,12 @@
+---
+- TemplateId: AddFrostDamageOneHandedFast
+  Id: AddFrostDamageOneHandedFast
+
+- TemplateId: AddFrostDamageOneHandedSlow
+  Id: AddFrostDamageOneHandedSlow
+
+- TemplateId: AddFrostDamageTwoHanded
+  Id: AddFrostDamageTwoHanded
+
+- TemplateId: AddFrostDamageBows
+  Id: AddFrostDamageBows

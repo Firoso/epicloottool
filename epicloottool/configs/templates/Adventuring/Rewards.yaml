@@ -1,0 +1,64 @@
+---
+- TemplateId: Luck
+  Type: Luck
+  SelectionWeight: 1
+  DisplayText: $mod_epicloot_me_luck_display
+  Description: $mod_epicloot_me_luck_desc
+  AllowedItemTypes: 
+  - Utility
+  - Shoulder
+  - Chest
+  ValuesPerRarity:
+    Magic: {MinValue: 7, MaxValue: 10, Increment: 1}
+    Rare: {MinValue: 9, MaxValue: 14, Increment: 1}
+    Epic: {MinValue: 13, MaxValue: 20, Increment: 1}
+    Legendary: {MinValue: 15, MaxValue: 25, Increment: 1}
+  Prefixes:
+  - $mod_epicloot_me_luck_prefix1
+  Suffixes:
+  - $mod_epicloot_me_luck_suffix1
+
+
+
+- TemplateId: Riches
+  Type: Riches
+  SelectionWeight: 1
+  DisplayText: $mod_epicloot_me_riches_display
+  Description: $mod_epicloot_me_riches_desc
+  AllowedItemTypes: 
+  - Utility
+  - Shoulder
+  - Chest
+  AllowedRarities:
+  - Epic
+  - Legendary
+  ValuesPerRarity:
+    Epic: {MinValue: 100, MaxValue: 225, Increment: 1}
+    Legendary: {MinValue: 200, MaxValue: 350, Increment: 1}
+  Prefixes:
+  - $mod_epicloot_me_riches_prefix1
+  Suffixes:
+  - $mod_epicloot_me_riches_suffix1
+
+
+
+- TemplateId: Comfortable
+  Type: Comfortable
+  SelectionWeight: 1
+  DisplayText: $mod_epicloot_me_comfortable_display
+  Description: $mod_epicloot_me_comfortable_desc
+  AllowedItemTypes: 
+  - Utility
+  - Shoulder
+  - Chest
+  - Helmet
+  - Legs
+  ValuesPerRarity:
+    Magic: {MinValue: 1, MaxValue: 1, Increment: 1}
+    Rare: {MinValue: 1, MaxValue: 2, Increment: 1}
+    Epic: {MinValue: 2, MaxValue: 3, Increment: 1}
+    Legendary: {MinValue: 3, MaxValue: 4, Increment: 1}
+  Prefixes:
+  - $mod_epicloot_me_comfortable_prefix1
+  Suffixes:
+  - $mod_epicloot_me_comfortable_suffix1

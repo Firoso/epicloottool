@@ -1,0 +1,13 @@
+---
+- TemplateId: AddLightningDamageOneHandedFast
+  Id: AddLightningDamageOneHandedFast
+
+- TemplateId: AddLightningDamageOneHandedSlow
+  Id: AddLightningDamageOneHandedSlow
+
+- TemplateId: AddLightningDamageTwoHanded
+  Id: AddLightningDamageTwoHanded
+
+- TemplateId: AddLightningDamageBows
+  Id: AddLightningDamageBows
+

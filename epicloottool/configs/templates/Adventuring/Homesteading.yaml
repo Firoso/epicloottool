@@ -1,0 +1,16 @@
+---
+- TemplateId: FreeBuild
+  Type: FreeBuild
+  SelectionWeight: 1
+  DisplayText: $mod_epicloot_me_freebuild_display
+  Description: $mod_epicloot_me_freebuild_desc
+  AllowedItemNames: 
+  - $item_hammer
+  - $item_hoe
+  - ImprovedHammer
+  AllowedRarities:
+  - Legendary
+  Prefixes:
+  - $mod_epicloot_me_freebuild_prefix1
+  Suffixes:
+  - $mod_epicloot_me_freebuild_suffix1

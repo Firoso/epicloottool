@@ -1,0 +1,105 @@
+---
+- TemplateId: ElementalResistance
+  SelectionWeight: 1
+  ValuesPerRarity:
+    Magic: {MinValue: 3, MaxValue: 5, Increment: 1}
+    Rare: {MinValue: 4, MaxValue: 7, Increment: 1}
+    Epic: {MinValue: 5, MaxValue: 9, Increment: 1}
+    Legendary: {MinValue: 6, MaxValue: 12, Increment: 1}
+
+- TemplateId: LightningResistance
+  ParentTemplateIds:
+  - ElementalResistance
+  Type: AddLightningResistancePercentage
+  DisplayText: $mod_epicloot_me_addlightningresistancepercentage_display
+  Description: $mod_epicloot_me_addlightningresistancepercentage_desc
+  ExclusiveEffectTypes:
+  - AddPoisonResistancePercentage
+  - AddFireResistancePercentage
+  - AddFrostResistancePercentage
+  - AddSpiritResistancePercentage
+  Prefixes:
+  - $mod_epicloot_me_addlightningresistancepercentage_prefix1
+  Suffixes:
+  - $mod_epicloot_me_addlightningresistancepercentage_suffix1
+
+- TemplateId: PoisonResistance
+  ParentTemplateIds:
+  - ElementalResistance
+  Type: AddPoisonResistancePercentage
+  DisplayText: $mod_epicloot_me_addpoisonresistancepercentage_display
+  Description: $mod_epicloot_me_addpoisonresistancepercentage_desc
+  ExclusiveEffectTypes:
+  - AddLightningResistancePercentage
+  - AddFireResistancePercentage
+  - AddFrostResistancePercentage
+  - AddSpiritResistancePercentage
+  Prefixes:
+  - $mod_epicloot_me_addpoisonresistancepercentage_prefix1
+  Suffixes:
+  - $mod_epicloot_me_addpoisonresistancepercentage_suffix1
+
+- TemplateId: FireResistance
+  ParentTemplateIds:
+  - ElementalResistance
+  Type: AddFireResistancePercentage
+  DisplayText: $mod_epicloot_me_addfireresistancepercentage_display
+  Description: $mod_epicloot_me_addfireresistancepercentage_desc
+  ExclusiveEffectTypes:
+  - AddLightningResistancePercentage
+  - AddPoisonResistancePercentage
+  - AddFrostResistancePercentage
+  - AddSpiritResistancePercentage
+  Prefixes:
+  - $mod_epicloot_me_addfireresistancepercentage_prefix1
+  Suffixes:
+  - $mod_epicloot_me_addfireresistancepercentage_suffix1
+
+- TemplateId: FrostResistance
+  ParentTemplateIds:
+  - ElementalResistance
+  Type: AddFrostResistancePercentage
+  DisplayText: $mod_epicloot_me_addfrostresistancepercentage_display
+  Description: $mod_epicloot_me_addfrostresistancepercentage_desc
+  ExclusiveEffectTypes:
+  - AddLightningResistancePercentage
+  - AddPoisonResistancePercentage
+  - AddFireResistancePercentage
+  - AddSpiritResistancePercentage
+  Prefixes:
+  - $mod_epicloot_me_addfrostresistancepercentage_prefix1
+  Suffixes:
+  - $mod_epicloot_me_addfrostresistancepercentage_suffix1
+
+- TemplateId: SpiritResistance
+  ParentTemplateIds:
+  - ElementalResistance
+  Type: AddSpiritResistancePercentage
+  DisplayText: $mod_epicloot_me_addspiritresistancepercentage_display
+  Description: $mod_epicloot_me_addspiritresistancepercentage_desc
+  ExclusiveEffectTypes:
+  - AddLightningResistancePercentage
+  - AddPoisonResistancePercentage
+  - AddFireResistancePercentage
+  - AddFrostResistancePercentage
+  Prefixes:
+  - $mod_epicloot_me_addspiritresistancepercentage_prefix1
+  Suffixes:
+  - $mod_epicloot_me_addspiritresistancepercentage_suffix1  
+
+- TemplateId: AddElementalResistance
+  ParentTemplateIds:
+  - ElementalResistance
+  Type: AddElementalResistancePercentage
+  DisplayText: $mod_epicloot_me_addelementalresistancepercentage_display
+  Description: $mod_epicloot_me_addelementalresistancepercentage_desc
+  AllowedRarities:
+  - Epic
+  - Legendary
+  ValuesPerRarity:
+    Epic: {MinValue: 6, MaxValue: 7, Increment: 1}
+    Legendary: {MinValue: 8, MaxValue: 9, Increment: 1}
+  Prefixes:
+  - $mod_epicloot_me_addelementalresistancepercentage_prefix1
+  Suffixes:
+  - $mod_epicloot_me_addelementalresistancepercentage_suffix1  

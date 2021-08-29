@@ -1,0 +1,286 @@
+---
+- TemplateId: IncreaseHealth
+  Type: IncreaseHealth
+  DisplayText: $mod_epicloot_me_increasehealth_display
+  Description: $mod_epicloot_me_increasehealth_desc
+  Prefixes:
+  - $mod_epicloot_me_increasehealth_prefix1
+  Suffixes:
+  - $mod_epicloot_me_increasehealth_suffix1
+
+- TemplateId: IncreaseHealthStrong
+  ParentTemplateIds:
+  - IncreaseHealth
+  ValuesPerRarity:
+    Magic: {MinValue: 10, MaxValue: 15, Increment: 1}
+    Rare: {MinValue: 15, MaxValue: 20, Increment: 1}
+    Epic: {MinValue: 20, MaxValue: 25, Increment: 1}
+    Legendary: {MinValue: 25, MaxValue: 30, Increment: 1}
+
+- TemplateId: IncreaseHealthWeak
+  ParentTemplateIds:
+  - IncreaseHealth
+  ValuesPerRarity:
+    Magic: {MinValue: 5, MaxValue: 10, Increment: 1}
+    Rare: {MinValue: 10, MaxValue: 15, Increment: 1}
+    Epic: {MinValue: 15, MaxValue: 20, Increment: 1}
+    Legendary: {MinValue: 20, MaxValue: 25, Increment: 1}
+
+- TemplateId: IncreaseStamina
+  Type: IncreaseStamina
+  DisplayText: $mod_epicloot_me_increasestamina_display
+  Description: $mod_epicloot_me_increasestamina_desc
+  Prefixes:
+  - $mod_epicloot_me_increasestamina_prefix1
+  Suffixes:
+  - $mod_epicloot_me_increasestamina_suffix1
+
+- TemplateId: IncreaseStaminaStrong
+  ParentTemplateIds:
+  - IncreaseStamina
+  ValuesPerRarity:
+    Magic: {MinValue: 10, MaxValue: 15, Increment: 1}
+    Rare: {MinValue: 15, MaxValue: 20, Increment: 1}
+    Epic: {MinValue: 20, MaxValue: 25, Increment: 1}
+    Legendary: {MinValue: 25, MaxValue: 30, Increment: 1}
+
+- TemplateId: IncreaseStaminaWeak
+  ParentTemplateIds:
+  - IncreaseStamina
+  ValuesPerRarity:
+    Magic: {MinValue: 5, MaxValue: 10, Increment: 1}
+    Rare: {MinValue: 10, MaxValue: 15, Increment: 1}
+    Epic: {MinValue: 15, MaxValue: 20, Increment: 1}
+    Legendary: {MinValue: 20, MaxValue: 25, Increment: 1}
+
+
+- TemplateId: ModifyHealthRegen
+  Type: ModifyHealthRegen
+  DisplayText: $mod_epicloot_me_modifyhealthregen_display
+  Description: $mod_epicloot_me_modifyhealthregen_desc
+  Prefixes:
+  - $mod_epicloot_me_modifyhealthregen_prefix1
+  Suffixes:
+  - $mod_epicloot_me_modifyhealthregen_suffix1
+
+- TemplateId: ModifyHealthRegenStrong
+  ParentTemplateIds:
+  - ModifyHealthRegen
+  ValuesPerRarity:
+    Magic: {MinValue: 10, MaxValue: 20, Increment: 1}
+    Rare: {MinValue: 15, MaxValue: 25, Increment: 1}
+    Epic: {MinValue: 20, MaxValue: 30, Increment: 1}
+    Legendary: {MinValue: 25, MaxValue: 35, Increment: 1}
+
+- TemplateId: ModifyHealthRegenWeak
+  ParentTemplateIds:
+  - ModifyHealthRegen
+  ValuesPerRarity:
+    Magic: {MinValue: 5, MaxValue: 8, Increment: 1}
+    Rare: {MinValue: 8, MaxValue: 12, Increment: 1}
+    Epic: {MinValue: 12, MaxValue: 16, Increment: 1}
+    Legendary: {MinValue: 16, MaxValue: 20, Increment: 1}
+
+- TemplateId: ModifyHealthRegenLowHealth
+  Type: ModifyHealthRegenLowHealth
+  DisplayText: $mod_epicloot_me_modifyhealthregenlowhealth_display
+  Description: $mod_epicloot_me_modifyhealthregenlowhealth_desc
+  Prefixes:
+  - $mod_epicloot_me_modifyhealthregenlowhealth_prefix1
+  Suffixes:
+  - $mod_epicloot_me_modifyhealthregenlowhealth_suffix1
+
+- TemplateId: ModifyHealthRegenLowHealthStrong
+  ParentTemplateIds:
+  - ModifyHealthRegenLowHealth
+  ValuesPerRarity:
+    Magic: {MinValue: 15, MaxValue: 25, Increment: 1}
+    Rare: {MinValue: 20, MaxValue: 35, Increment: 1}
+    Epic: {MinValue: 30, MaxValue: 50, Increment: 1}
+    Legendary: {MinValue: 40, MaxValue: 65, Increment: 1}
+
+- TemplateId: ModifyHealthRegenLowHealthWeak
+  ParentTemplateIds:
+  - ModifyHealthRegenLowHealth
+  ValuesPerRarity:
+    Magic: {MinValue: 10, MaxValue: 20, Increment: 1}
+    Rare: {MinValue: 15, MaxValue: 25, Increment: 1}
+    Epic: {MinValue: 20, MaxValue: 35, Increment: 1}
+    Legendary: {MinValue: 25, MaxValue: 45, Increment: 1}
+
+
+- TemplateId: ModifyStaminaRegen
+  Type: ModifyStaminaRegen
+  DisplayText: $mod_epicloot_me_modifystaminaregen_display
+  Description: $mod_epicloot_me_modifystaminaregen_desc
+  Prefixes:
+  - $mod_epicloot_me_modifystaminaregen_prefix1
+  Suffixes:
+  - $mod_epicloot_me_modifystaminaregen_suffix1
+
+- TemplateId: ModifyStaminaRegenStrong
+  ParentTemplateIds:
+  - ModifyStaminaRegen
+  ValuesPerRarity:
+    Magic: {MinValue: 10, MaxValue: 20, Increment: 1}
+    Rare: {MinValue: 15, MaxValue: 25, Increment: 1}
+    Epic: {MinValue: 20, MaxValue: 30, Increment: 1}
+    Legendary: {MinValue: 25, MaxValue: 35, Increment: 1}
+
+- TemplateId: ModifyStaminaRegenWeak
+  ParentTemplateIds:
+  - ModifyStaminaRegen
+  ValuesPerRarity:
+    Magic: {MinValue: 5, MaxValue: 8, Increment: 1}
+    Rare: {MinValue: 8, MaxValue: 12, Increment: 1}
+    Epic: {MinValue: 12, MaxValue: 16, Increment: 1}
+    Legendary: {MinValue: 16, MaxValue: 20, Increment: 1}
+
+- TemplateId: ModifyStaminaRegenLowHealth
+  Type: ModifyStaminaRegenLowHealth
+  DisplayText: $mod_epicloot_me_modifystaminaregenlowhealth_display
+  Description: $mod_epicloot_me_modifystaminaregenlowhealth_desc
+  Prefixes:
+  - $mod_epicloot_me_modifystaminaregenlowhealth_prefix1
+  Suffixes:
+  - $mod_epicloot_me_modifystaminaregenlowhealth_suffix1
+
+- TemplateId: ModifyStaminaRegenLowHealthStrong
+  ParentTemplateIds:
+  - ModifyStaminaRegenLowHealth
+  ValuesPerRarity:
+    Magic: {MinValue: 15, MaxValue: 25, Increment: 1}
+    Rare: {MinValue: 20, MaxValue: 35, Increment: 1}
+    Epic: {MinValue: 30, MaxValue: 50, Increment: 1}
+    Legendary: {MinValue: 40, MaxValue: 65, Increment: 1}
+
+- TemplateId: ModifyStaminaRegenLowHealthWeak
+  ParentTemplateIds:
+  - ModifyStaminaRegenLowHealth
+  DisplayText: $mod_epicloot_me_modifystaminaregenlowhealth_display
+  Description: $mod_epicloot_me_modifystaminaregenlowhealth_desc
+  ValuesPerRarity:
+    Magic: {MinValue: 10, MaxValue: 20, Increment: 1}
+    Rare: {MinValue: 15, MaxValue: 25, Increment: 1}
+    Epic: {MinValue: 20, MaxValue: 35, Increment: 1}
+    Legendary: {MinValue: 25, MaxValue: 45, Increment: 1}
+  Prefixes:
+  - $mod_epicloot_me_modifystaminaregenlowhealth_prefix1
+  Suffixes:
+  - $mod_epicloot_me_modifystaminaregenlowhealth_suffix1
+
+- TemplateId: ModifyStaminaUse
+  AllowedItemTypes:
+  - Legs
+  - Utility
+  - Shoulder
+  ValuesPerRarity:
+    Magic: {MinValue: 3, MaxValue: 7, Increment: 1}
+    Rare: {MinValue: 5, MaxValue: 9, Increment: 1}
+    Epic: {MinValue: 7, MaxValue: 11, Increment: 1}
+    Legendary: {MinValue: 9, MaxValue: 13, Increment: 1}
+
+- TemplateId: ModifySprintStaminaUse
+  ParentTemplateIds:
+  - ModifyStaminaUse
+  Type: ModifySprintStaminaUse
+  DisplayText: $mod_epicloot_me_modifysprintstaminause_display
+  Description: $mod_epicloot_me_modifysprintstaminause_desc
+  Prefixes:
+  - $mod_epicloot_me_modifysprintstaminause_prefix1
+  Suffixes:
+  - $mod_epicloot_me_modifysprintstaminause_suffix1
+
+- TemplateId: ModifyJumpStaminaUse
+  ParentTemplateIds:
+  - ModifyStaminaUse
+  Type: ModifyJumpStaminaUse
+  DisplayText: $mod_epicloot_me_modifyjumpstaminause_display
+  Description: $mod_epicloot_me_modifyjumpstaminause_desc
+  Prefixes:
+  - $mod_epicloot_me_modifyjumpstaminause_prefix1
+  Suffixes:
+  - $mod_epicloot_me_modifyjumpstaminause_suffix1
+
+- TemplateId: ModifySprintStaminaUseCombat
+  ValuesPerRarity:
+    Magic: {MinValue: 6, MaxValue: 11, Increment: 1}
+    Rare: {MinValue: 9, MaxValue: 14, Increment: 1}
+    Epic: {MinValue: 12, MaxValue: 17, Increment: 1}
+    Legendary: {MinValue: 15, MaxValue: 20, Increment: 1}
+
+
+- TemplateId: ModifyBlockStaminaUse
+  ParentTemplateIds:
+  - ModifySprintStaminaUseCombat
+  Type: ModifyBlockStaminaUse
+  DisplayText: $mod_epicloot_me_modifyblockstaminause_display
+  Description: $mod_epicloot_me_modifyblockstaminause_desc
+  AllowedItemTypes:
+  - Shield
+  Prefixes:
+  - $mod_epicloot_me_modifyblockstaminause_prefix1
+  Suffixes:
+  - $mod_epicloot_me_modifyblockstaminause_suffix1
+
+- TemplateId: ModifyAttackStaminaUse
+  ParentTemplateIds:
+  - ModifySprintStaminaUseCombat
+  Type: ModifyAttackStaminaUse
+  DisplayText: $mod_epicloot_me_modifyattackstaminause_display
+  Description: $mod_epicloot_me_modifyattackstaminause_desc
+  AllowedItemTypes:
+  - OneHandedWeapon
+  - TwoHandedWeapon
+  - Bow
+  - Torch
+  - Tool
+  Prefixes:
+  - $mod_epicloot_me_modifyattackstaminause_prefix1
+  Suffixes:
+  - $mod_epicloot_me_modifyattackstaminause_suffix1
+
+
+
+- TemplateId: LifeSteal
+  Type: LifeSteal
+  DisplayText: $mod_epicloot_me_lifesteal_display
+  Description: $mod_epicloot_me_lifesteal_desc
+  AllowedItemTypes:
+  - OneHandedWeapon
+  - TwoHandedWeapon
+  - Bow
+  Prefixes:
+  - $mod_epicloot_me_lifesteal_prefix1
+  Suffixes:
+  - $mod_epicloot_me_lifesteal_suffix1
+  AllowedRarities:
+  - Epic
+  - Legendary
+  ValuesPerRarity:
+    Epic: {MinValue: 2, MaxValue: 5, Increment: 0.1}
+    Legendary: {MinValue: 4, MaxValue: 7, Increment: 0.1}
+
+
+
+
+
+
+- TemplateId: LifeStealLowHealth
+  Type: LifeStealLowHealth
+  DisplayText: $mod_epicloot_me_lifesteallowhealth_display
+  Description: $mod_epicloot_me_lifesteallowhealth_desc
+  AllowedItemTypes:
+  - OneHandedWeapon
+  - TwoHandedWeapon
+  - Bow
+  Prefixes:
+  - $mod_epicloot_me_lifesteallowhealth_prefix1
+  Suffixes:
+  - $mod_epicloot_me_lifesteallowhealth_suffix1
+  AllowedRarities:
+  - Epic
+  - Legendary
+  ValuesPerRarity:
+    Epic: {MinValue: 6, MaxValue: 15, Increment: 0.1}
+    Legendary: {MinValue: 9, MaxValue: 25, Increment: 0.1}

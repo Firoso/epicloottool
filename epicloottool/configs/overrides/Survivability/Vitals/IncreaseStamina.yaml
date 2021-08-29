@@ -1,0 +1,35 @@
+---
+- TemplateId: IncreaseStaminaStrong
+  Id: IncreaseStaminaChest
+  AllowedItemTypes: 
+   - "Chest"
+
+- TemplateId: IncreaseStaminaStrong
+  Id: IncreaseStaminaHelmet
+  AllowedItemTypes: 
+   - "Helmet"
+
+- TemplateId: IncreaseStaminaWeak
+  Id: IncreaseStaminaLegs
+  AllowedItemTypes: 
+   - "Legs"
+
+- TemplateId: IncreaseStaminaWeak
+  Id: IncreaseStaminaRings
+  AllowedItemTypes: 
+   - "Utility"
+  AllowedItemNames:
+   - "Gold Ruby Ring"
+   - "Silver Ring"
+
+- TemplateId: IncreaseStaminaWeak
+  Id: IncreaseStaminaBelt
+  AllowedItemTypes: 
+   - "Utility"
+  AllowedItemNames:
+  - Leather Belt
+  - Aescfell Belt
+  - Stánbrysan Belt
+  - Eorðtilia Belt
+  - Stulor Belt
+  - Casul Belt

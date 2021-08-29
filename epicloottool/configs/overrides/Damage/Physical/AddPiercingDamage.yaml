@@ -1,0 +1,12 @@
+---
+- TemplateId: AddPiercingDamageOneHandedFast
+  Id: AddPiercingDamageOneHandedFast
+
+- TemplateId: AddPiercingDamageOneHandedSlow
+  Id: AddPiercingDamageOneHandedSlow
+
+- TemplateId: AddPiercingDamageTwoHanded
+  Id: AddPiercingDamageTwoHanded
+
+- TemplateId: AddPiercingDamageBows
+  Id: AddPiercingDamageBows

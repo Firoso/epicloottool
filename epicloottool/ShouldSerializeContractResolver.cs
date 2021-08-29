@@ -52,7 +52,6 @@ namespace epicloottool
             "Ability",
             "EquipFx",
             "Comment",
-            "EquipFxMode",            
             "Prefixes",
             "Suffixes",
             "NoRoll",

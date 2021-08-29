@@ -1,0 +1,331 @@
+---
+# AddElementalDamages
+- TemplateId: AddFireDamage
+  Type: AddFireDamage  
+  ParentTemplateIds:
+  - ExcludeAddPhysicalDamageEffects
+  DisplayText: $mod_epicloot_me_addfiredamage_display
+  Description: $mod_epicloot_me_addfiredamage_desc
+  ExclusiveEffectTypes:
+  - AddFrostDamage
+  - AddLightningDamage
+  - AddPoisonDamage
+  - AddSpiritDamage
+  Prefixes:
+  - $mod_epicloot_me_addfiredamage_prefix1
+  Suffixes:
+  - $mod_epicloot_me_addfiredamage_suffix1
+
+
+
+- TemplateId: AddFrostDamage
+  Type: AddFrostDamage  
+  ParentTemplateIds:
+  - ExcludeAddPhysicalDamageEffects
+  DisplayText: $mod_epicloot_me_addfrostdamage_display
+  Description: $mod_epicloot_me_addfrostdamage_desc
+  ExclusiveEffectTypes:
+  - AddFireDamage
+  - AddLightningDamage
+  - AddPoisonDamage
+  - AddSpiritDamage
+  Prefixes:
+  - $mod_epicloot_me_addfrostdamage_prefix1
+  Suffixes:
+  - $mod_epicloot_me_addfrostdamage_suffix1
+
+
+
+- TemplateId: AddLightningDamage
+  Type: AddLightningDamage  
+  ParentTemplateIds:
+  - ExcludeAddPhysicalDamageEffects
+  DisplayText: $mod_epicloot_me_addlightningdamage_display
+  Description: $mod_epicloot_me_addlightningdamage_desc
+  ExclusiveEffectTypes:
+  - AddFireDamage
+  - AddFrostDamage
+  - AddPoisonDamage
+  - AddSpiritDamage
+  Prefixes:
+  - $mod_epicloot_me_addlightningdamage_prefix1
+  Suffixes:
+  - $mod_epicloot_me_addlightningdamage_suffix1
+
+
+
+- TemplateId: AddPoisonDamage
+  Type: AddPoisonDamage  
+  ParentTemplateIds:
+  - ExcludeAddPhysicalDamageEffects
+  DisplayText: $mod_epicloot_me_addpoisondamage_display
+  Description: $mod_epicloot_me_addpoisondamage_desc
+  ExclusiveEffectTypes:
+  - AddFireDamage
+  - AddFrostDamage
+  - AddLightningDamage
+  - AddSpiritDamage
+  Prefixes:
+  - $mod_epicloot_me_addpoisondamage_prefix1
+  Suffixes:
+  - $mod_epicloot_me_addpoisondamage_suffix1
+
+
+
+- TemplateId: AddSpiritDamage
+  Type: AddSpiritDamage  
+  ParentTemplateIds:
+  - ExcludeAddPhysicalDamageEffects
+  DisplayText: $mod_epicloot_me_addspiritdamage_display
+  Description: $mod_epicloot_me_addspiritdamage_desc
+  ExclusiveEffectTypes:
+  - AddFireDamage
+  - AddFrostDamage
+  - AddLightningDamage
+  - AddPoisonDamage
+  Prefixes:
+  - $mod_epicloot_me_addspiritdamage_prefix1
+  Suffixes:
+  - $mod_epicloot_me_addspiritdamage_suffix1
+
+
+# ExclusionRule
+- TemplateId: ExcludeAddElementalDamageEffects
+  ExclusiveEffectTypes:
+  - AddFireDamage
+  - AddFrostDamage
+  - AddLightningDamage
+  - AddPoisonDamage
+  - AddSpiritDamage
+
+
+# ByClass
+- TemplateId: AddElementalDamageOneHandedFast
+  AllowedItemTypes: 
+  - OneHandedWeapon
+  AllowedSkillTypes:
+  - Knives
+  - Spears
+  - Unarmed
+  ValuesPerRarity:
+    Magic: {MinValue: 1, MaxValue: 1, Increment: 1}
+    Rare: {MinValue: 1, MaxValue: 2, Increment: 1}
+    Epic: {MinValue: 2, MaxValue: 3, Increment: 1}
+    Legendary: {MinValue: 3, MaxValue: 5, Increment: 1}
+
+
+
+- TemplateId: AddElementalDamageOneHandedSlow
+  AllowedItemTypes: 
+  - OneHandedWeapon
+  - Torch
+  AllowedSkillTypes:
+  - Clubs
+  - Swords
+  - Axes
+  ValuesPerRarity:
+    Magic: {MinValue: 1, MaxValue: 2, Increment: 1}
+    Rare: {MinValue: 2, MaxValue: 3, Increment: 1}
+    Epic: {MinValue: 3, MaxValue: 5, Increment: 1}
+    Legendary: {MinValue: 5, MaxValue: 7, Increment: 1}
+
+
+- TemplateId: AddElementalDamageTwoHanded
+  AllowedItemTypes: 
+  - TwoHandedWeapon
+  ValuesPerRarity:
+    Magic: {MinValue: 2, MaxValue: 3, Increment: 1}
+    Rare: {MinValue: 3, MaxValue: 5, Increment: 1}
+    Epic: {MinValue: 5, MaxValue: 8, Increment: 1}
+    Legendary: {MinValue: 8, MaxValue: 12, Increment: 1}
+
+
+
+- TemplateId: AddElementalDamageBows
+  AllowedItemTypes: 
+  - Bow
+  ValuesPerRarity:
+    Magic: {MinValue: 1, MaxValue: 2, Increment: 1}
+    Rare: {MinValue: 2, MaxValue: 3, Increment: 1}
+    Epic: {MinValue: 3, MaxValue: 5, Increment: 1}
+    Legendary: {MinValue: 4, MaxValue: 6, Increment: 1}
+
+
+
+# Mixins - Fire
+- TemplateId: AddFireDamageOneHandedFast
+  ParentTemplateIds:
+  - AddFireDamage
+  - AddElementalDamageOneHandedFast
+
+
+
+- TemplateId: AddFireDamageOneHandedSlow
+  ParentTemplateIds:
+  - AddFireDamage
+  - AddElementalDamageOneHandedSlow
+
+
+
+- TemplateId: AddFireDamageTwoHanded
+  ParentTemplateIds:
+  - AddFireDamage
+  - AddElementalDamageTwoHanded
+
+
+
+- TemplateId: AddFireDamageBows
+  ParentTemplateIds:
+  - AddFireDamage
+  - AddElementalDamageBows
+
+
+
+# Mixins - Frost
+- TemplateId: AddFrostDamageOneHandedFast
+  ParentTemplateIds:
+  - AddFrostDamage
+  - AddElementalDamageOneHandedFast
+
+
+
+- TemplateId: AddFrostDamageOneHandedSlow
+  ParentTemplateIds:
+  - AddFrostDamage
+  - AddElementalDamageOneHandedSlow
+
+
+
+- TemplateId: AddFrostDamageTwoHanded
+  ParentTemplateIds:
+  - AddFrostDamage
+  - AddElementalDamageTwoHanded
+
+
+
+- TemplateId: AddFrostDamageBows
+  ParentTemplateIds:
+  - AddFrostDamage
+  - AddElementalDamageBows
+
+
+
+# Mixins - Lightning
+- TemplateId: AddLightningDamageOneHandedFast
+  ParentTemplateIds:
+  - AddLightningDamage
+  - AddElementalDamageOneHandedFast
+
+
+
+- TemplateId: AddLightningDamageOneHandedSlow
+  ParentTemplateIds:
+  - AddLightningDamage
+  - AddElementalDamageOneHandedSlow
+
+
+
+- TemplateId: AddLightningDamageTwoHanded
+  ParentTemplateIds:
+  - AddLightningDamage
+  - AddElementalDamageTwoHanded
+
+
+
+- TemplateId: AddLightningDamageBows
+  ParentTemplateIds:
+  - AddLightningDamage
+  - AddElementalDamageBows
+
+
+
+# Mixins - Poison
+- TemplateId: AddPoisonDamageOneHandedFast
+  ParentTemplateIds:
+  - AddPoisonDamage
+  - AddElementalDamageOneHandedFast
+
+
+
+- TemplateId: AddPoisonDamageOneHandedSlow
+  ParentTemplateIds:
+  - AddPoisonDamage
+  - AddElementalDamageOneHandedSlow
+
+
+
+- TemplateId: AddPoisonDamageTwoHanded
+  ParentTemplateIds:
+  - AddPoisonDamage
+  - AddElementalDamageTwoHanded
+
+
+
+- TemplateId: AddPoisonDamageBows
+  ParentTemplateIds:
+  - AddPoisonDamage
+  - AddElementalDamageBows
+
+
+
+# Mixins - Spirit
+- TemplateId: AddSpiritDamageOneHandedFast
+  ParentTemplateIds:
+  - AddSpiritDamage
+  - AddElementalDamageOneHandedFast
+
+
+
+- TemplateId: AddSpiritDamageOneHandedSlow
+  ParentTemplateIds:
+  - AddSpiritDamage
+  - AddElementalDamageOneHandedSlow
+
+
+
+- TemplateId: AddSpiritDamageTwoHanded
+  ParentTemplateIds:
+  - AddSpiritDamage
+  - AddElementalDamageTwoHanded
+
+
+
+- TemplateId: AddSpiritDamageBows
+  ParentTemplateIds:
+  - AddSpiritDamage
+  - AddElementalDamageBows
+
+
+
+# ModifyElementalDamage
+- TemplateId: ModifyElementalDamage
+  Type: ModifyElementalDamage
+  ParentTemplateIds:
+  - ExcludeAddElementalDamageEffects
+  DisplayText: $mod_epicloot_me_modifyelementaldamage_display
+  Description: $mod_epicloot_me_modifyelementaldamage_desc
+  ItemHasElementalDamage: true
+  AllowedItemTypes: 
+  - OneHandedWeapon
+  - TwoHandedWeapon
+  - Bow
+  ValuesPerRarity:
+    Magic: {MinValue: 10, MaxValue: 10, Increment: 5}
+    Rare: {MinValue: 10, MaxValue: 15, Increment: 5}
+    Epic: {MinValue: 15, MaxValue: 15, Increment: 5}
+    Legendary: {MinValue: 15, MaxValue: 20, Increment: 5}
+  Prefixes:
+  - $mod_epicloot_me_modifyelementaldamage_prefix1
+  - $mod_epicloot_me_modifyelementaldamage_prefix2
+  - $mod_epicloot_me_modifyelementaldamage_prefix3
+  - $mod_epicloot_me_modifyelementaldamage_prefix4
+  - $mod_epicloot_me_modifyelementaldamage_prefix5
+  - $mod_epicloot_me_modifyelementaldamage_prefix6
+  - $mod_epicloot_me_modifyelementaldamage_prefix7
+  - $mod_epicloot_me_modifyelementaldamage_prefix8
+  Suffixes:
+  - $mod_epicloot_me_modifyelementaldamage_suffix1
+  - $mod_epicloot_me_modifyelementaldamage_suffix2
+  - $mod_epicloot_me_modifyelementaldamage_suffix3
+  - $mod_epicloot_me_modifyelementaldamage_suffix4
+  - $mod_epicloot_me_modifyelementaldamage_suffix5

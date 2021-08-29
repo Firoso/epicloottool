@@ -6,7 +6,6 @@ ModifyDurability
 RemoveSpeedPenalty
 ModifyBlockPower
 ModifyParry
-ModifyArmor
 ModifyBackstab
 IncreaseHealth
 IncreaseStamina
@@ -77,6 +76,7 @@ Immovable
 FeatherFall
 
 Epic:
+ModifyArmor
 LifeSteal
 LifeStealLowHealth
 Throwable

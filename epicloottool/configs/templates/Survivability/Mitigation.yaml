@@ -1,0 +1,235 @@
+---
+- TemplateId: ModifyBlockPower
+  Type: ModifyBlockPower
+  DisplayText: $mod_epicloot_me_modifyblockpower_display
+  Description: $mod_epicloot_me_modifyblockpower_desc
+  AllowedItemTypes:
+  - Shield
+  ValuesPerRarity:
+    Magic: {MinValue: 10, MaxValue: 20, Increment: 1}
+    Rare: {MinValue: 10, MaxValue: 20, Increment: 1}
+    Epic: {MinValue: 10, MaxValue: 20, Increment: 1}
+    Legendary: {MinValue: 15, MaxValue: 30, Increment: 1}
+  Prefixes:
+  - $mod_epicloot_me_modifyblockpower_prefix1
+  - $mod_epicloot_me_modifyblockpower_prefix2
+  Suffixes:
+  - $mod_epicloot_me_modifyblockpower_suffix1
+  - $mod_epicloot_me_modifyblockpower_suffix2
+
+
+
+- TemplateId: ModifyBlockPowerLowHealth
+  Type: ModifyBlockPowerLowHealth
+  DisplayText: $mod_epicloot_me_modifyblockpowerlowhealth_display
+  Description: $mod_epicloot_me_modifyblockpowerlowhealth_desc
+  AllowedItemTypes:
+  - Shield
+  - Helmet
+  - Utility
+  AllowedRarities:
+  - Rare
+  - Epic
+  - Legendary
+  ValuesPerRarity:
+    Rare: {MinValue: 5, MaxValue: 10, Increment: 1}
+    Epic: {MinValue: 5, MaxValue: 10, Increment: 1}
+    Legendary: {MinValue: 10, MaxValue: 15, Increment: 1}
+  Prefixes:
+  - $mod_epicloot_me_modifyblockpowerlowhealth_prefix1
+  - $mod_epicloot_me_modifyblockpowerlowhealth_prefix2
+  Suffixes:
+  - $mod_epicloot_me_modifyblockpowerlowhealth_suffix1
+  - $mod_epicloot_me_modifyblockpowerlowhealth_suffix2
+
+
+
+
+- TemplateId: ModifyParry
+  Type: ModifyParry
+  DisplayText: $mod_epicloot_me_modifyparry_display
+  Description: $mod_epicloot_me_modifyparry_desc
+  Prefixes:
+  - $mod_epicloot_me_modifyparry_prefix1
+  - $mod_epicloot_me_modifyparry_prefix2
+  Suffixes:
+  - $mod_epicloot_me_modifyparry_suffix1
+  - $mod_epicloot_me_modifyparry_suffix2
+
+
+  
+- TemplateId: ModifyParryShield
+  ParentTemplateIds:
+  - ModifyParry
+  AllowedItemTypes:
+  - Shield
+  ValuesPerRarity:
+    Magic: {MinValue: 10, MaxValue: 15, Increment: 1}
+    Rare: {MinValue: 10, MaxValue: 15, Increment: 1}
+    Epic: {MinValue: 10, MaxValue: 15, Increment: 1}
+    Legendary: {MinValue: 15, MaxValue: 20, Increment: 1}
+
+
+
+- TemplateId: ModifyParry2H
+  ParentTemplateIds:
+  - ModifyParry
+  AllowedItemTypes:
+  - TwoHandedWeapon
+  ValuesPerRarity:
+    Magic: {MinValue: 10, MaxValue: 15, Increment: 1}
+    Rare: {MinValue: 10, MaxValue: 15, Increment: 1}
+    Epic: {MinValue: 10, MaxValue: 15, Increment: 1}
+    Legendary: {MinValue: 15, MaxValue: 20, Increment: 1}
+
+
+
+- TemplateId: ModifyParryArmor
+  ParentTemplateIds:
+  - ModifyParry
+  AllowedItemTypes:
+  - Helmet
+  - Utility
+  ValuesPerRarity:
+    Magic: {MinValue: 3, MaxValue: 5, Increment: 1}
+    Rare: {MinValue: 4, MaxValue: 6, Increment: 1}
+    Epic: {MinValue: 5, MaxValue: 7, Increment: 1}
+    Legendary: {MinValue: 6, MaxValue: 8, Increment: 1}
+
+
+- TemplateId: ModifyParryWindow
+  Type: ModifyParryWindow
+  DisplayText: $mod_epicloot_me_modifyparrywindow_display
+  Description: $mod_epicloot_me_modifyparrywindow_desc
+  Prefixes:
+  - $mod_epicloot_me_modifyparrywindow_prefix1
+  - $mod_epicloot_me_modifyparrywindow_prefix2
+  Suffixes:
+  - $mod_epicloot_me_modifyparrywindow_suffix1
+  - $mod_epicloot_me_modifyparrywindow_suffix2
+
+
+  
+- TemplateId: ModifyParryWindowShield
+  ParentTemplateIds:
+  - ModifyParryWindow
+  AllowedItemTypes:
+  - Shield
+  ValuesPerRarity:
+    Magic: {MinValue: 5, MaxValue: 30, Increment: 1}
+    Rare: {MinValue: 15, MaxValue: 45, Increment: 1}
+    Epic: {MinValue: 30, MaxValue: 60, Increment: 1}
+    Legendary: {MinValue: 35, MaxValue: 75, Increment: 1}
+
+
+
+- TemplateId: ModifyParryWindow2H
+  ParentTemplateIds:
+  - ModifyParryWindow
+  AllowedItemTypes:
+  - TwoHandedWeapon
+  ValuesPerRarity:
+    Magic: {MinValue: 5, MaxValue: 30, Increment: 1}
+    Rare: {MinValue: 15, MaxValue: 45, Increment: 1}
+    Epic: {MinValue: 30, MaxValue: 60, Increment: 1}
+    Legendary: {MinValue: 35, MaxValue: 75, Increment: 1}
+
+
+
+- TemplateId: ModifyParryWindowArmor
+  ParentTemplateIds:
+  - ModifyParryWindow
+  AllowedItemTypes:
+  - Helmet
+  - Utility
+  ValuesPerRarity:
+    Magic: {MinValue: 3, MaxValue: 12, Increment: 1}
+    Rare: {MinValue: 5, MaxValue: 20, Increment: 1}
+    Epic: {MinValue: 10, MaxValue: 27, Increment: 1}
+    Legendary: {MinValue: 15, MaxValue: 35, Increment: 1}
+
+
+
+- TemplateId: StaggerOnDamageTaken
+  Type: StaggerOnDamageTaken
+  DisplayText: $mod_epicloot_me_staggerondamagetaken_display
+  Description: $mod_epicloot_me_staggerondamagetaken_desc
+  AllowedItemTypes:
+  - Chest
+  - Shield
+  ValuesPerRarity:
+    Magic: {MinValue: 5, MaxValue: 10, Increment: 1}
+    Rare: {MinValue: 8, MaxValue: 13, Increment: 1}
+    Epic: {MinValue: 11, MaxValue: 16, Increment: 1}
+    Legendary: {MinValue: 14, MaxValue: 19, Increment: 1}
+  Prefixes:
+  - $mod_epicloot_me_staggerondamagetaken_prefix1
+  Suffixes:
+  - $mod_epicloot_me_staggerondamagetaken_suffix1
+
+
+
+- TemplateId: AvoidDamageTaken
+  Type: AvoidDamageTaken
+  DisplayText: $mod_epicloot_me_avoiddamagetaken_display
+  Description: $mod_epicloot_me_avoiddamagetaken_desc
+  AllowedItemTypes:
+  - Chest
+  AllowedRarities:
+  - Rare
+  - Epic
+  - Legendary
+  ValuesPerRarity:
+    Rare: {MinValue: 8, MaxValue: 14, Increment: 1}
+    Epic: {MinValue: 11, MaxValue: 17, Increment: 1}
+    Legendary: {MinValue: 15, MaxValue: 22, Increment: 1}
+  Prefixes:
+  - $mod_epicloot_me_avoiddamagetaken_prefix1
+  Suffixes:
+  - $mod_epicloot_me_avoiddamagetaken_suffix1
+
+
+  
+- TemplateId: AvoidDamageTakenLowHealth
+  Type: AvoidDamageTakenLowHealth
+  DisplayText: $mod_epicloot_me_avoiddamagetakenlowhealth_display
+  Description: $mod_epicloot_me_avoiddamagetakenlowhealth_desc
+  AllowedItemTypes:
+  - Chest
+  AllowedRarities:
+  - Rare
+  - Epic
+  - Legendary
+  ValuesPerRarity:
+    Rare: {MinValue: 16, MaxValue: 22, Increment: 1}
+    Epic: {MinValue: 23, MaxValue: 30, Increment: 1}
+    Legendary: {MinValue: 31, MaxValue: 38, Increment: 1}
+  Prefixes:
+  - $mod_epicloot_me_avoiddamagetakenlowhealth_prefix1
+  Suffixes:
+  - $mod_epicloot_me_avoiddamagetakenlowhealth_suffix1
+
+
+
+- TemplateId: Duelist
+  Type: Duelist
+  DisplayText: $mod_epicloot_me_avoiddamagetakenlowhealth_display
+  Description: $mod_epicloot_me_avoiddamagetakenlowhealth_desc
+  AllowedItemTypes:
+  - Helmet
+  - OneHandedWeapon
+  AllowedSkillTypes:
+  - Swords
+  - None
+  AllowedRarities:
+  - Rare
+  - Epic
+  - Legendary
+  ValuesPerRarity:
+    Rare: {MinValue: 21, MaxValue: 25, Increment: 1}
+    Epic: {MinValue: 26, MaxValue: 30, Increment: 1}
+    Legendary: {MinValue: 31, MaxValue: 35, Increment: 1}
+  Prefixes:
+  - $mod_epicloot_me_avoiddamagetakenlowhealth_prefix1
+  Suffixes:
+  - $mod_epicloot_me_avoiddamagetakenlowhealth_suffix1

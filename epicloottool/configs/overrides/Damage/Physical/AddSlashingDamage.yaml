@@ -1,0 +1,13 @@
+---
+- TemplateId: AddSlashingDamageOneHandedFast
+  Id: AddSlashingDamageOneHandedFast
+
+- TemplateId: AddSlashingDamageOneHandedSlow
+  Id: AddSlashingDamageOneHandedSlow
+
+- TemplateId: AddSlashingDamageTwoHanded
+  Id: AddSlashingDamageTwoHanded
+
+- TemplateId: AddSlashingDamageBows
+  Id: AddSlashingDamageBows
+
