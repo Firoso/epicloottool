@@ -106,8 +106,8 @@ namespace epicloottool
                         AllowedRarities = o.AllowedRarities ?? new List<ItemRarity>(),
                         ExcludedItemTypes = o.ExcludedItemTypes ?? new List<ItemType>(),
                         AllowedItemTypes = o.AllowedItemTypes ?? new List<ItemType>(),
-                        ExclusiveEffectTypes = o.AllowedItemNames ?? new List<string>(),
-                        ExcludedItemNames = o.AllowedItemNames ?? new List<string>()
+                        ExclusiveEffectTypes = o.ExclusiveEffectTypes ?? new List<string>(),
+                        ExcludedItemNames = o.ExcludedItemNames ?? new List<string>()
                     },
                     DisplayText = o.DisplayText,
                     Description = o.Description,
