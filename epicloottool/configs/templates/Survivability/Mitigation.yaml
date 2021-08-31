@@ -54,7 +54,6 @@
   - $mod_epicloot_me_modifyparry_prefix2
   Suffixes:
   - $mod_epicloot_me_modifyparry_suffix1
-  - $mod_epicloot_me_modifyparry_suffix2
 
 
   
@@ -63,6 +62,9 @@
   - ModifyParry
   AllowedItemTypes:
   - Shield
+  AllowedSkillTypes:
+  - Blocking
+  ItemHasParryPower: true
   ValuesPerRarity:
     Magic: {MinValue: 10, MaxValue: 15, Increment: 1}
     Rare: {MinValue: 10, MaxValue: 15, Increment: 1}
@@ -90,6 +92,8 @@
   AllowedItemTypes:
   - Helmet
   - Utility
+  AllowedSkillTypes:
+  - None
   ValuesPerRarity:
     Magic: {MinValue: 3, MaxValue: 5, Increment: 1}
     Rare: {MinValue: 4, MaxValue: 6, Increment: 1}
@@ -103,10 +107,8 @@
   Description: $mod_epicloot_me_modifyparrywindow_desc
   Prefixes:
   - $mod_epicloot_me_modifyparrywindow_prefix1
-  - $mod_epicloot_me_modifyparrywindow_prefix2
   Suffixes:
   - $mod_epicloot_me_modifyparrywindow_suffix1
-  - $mod_epicloot_me_modifyparrywindow_suffix2
 
 
   
@@ -115,6 +117,9 @@
   - ModifyParryWindow
   AllowedItemTypes:
   - Shield
+  AllowedSkillTypes:
+  - Blocking
+  ItemHasParryPower: true
   ValuesPerRarity:
     Magic: {MinValue: 5, MaxValue: 30, Increment: 1}
     Rare: {MinValue: 15, MaxValue: 45, Increment: 1}
@@ -142,6 +147,8 @@
   AllowedItemTypes:
   - Helmet
   - Utility
+  AllowedSkillTypes:
+  - None
   ValuesPerRarity:
     Magic: {MinValue: 3, MaxValue: 12, Increment: 1}
     Rare: {MinValue: 5, MaxValue: 20, Increment: 1}

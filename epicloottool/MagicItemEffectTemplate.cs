@@ -57,6 +57,7 @@ namespace epicloottool
             this.ItemHasNegativeMovementSpeedModifier = ReconcileValue(this.ItemHasNegativeMovementSpeedModifier, confirmedParents, p => p.ItemHasNegativeMovementSpeedModifier, nameof(ItemHasNegativeMovementSpeedModifier), allowConflict: true, conflictResolver: BooleanMerge);
             this.ItemUsesDurability = ReconcileValue(this.ItemUsesDurability, confirmedParents, p => p.ItemUsesDurability, nameof(ItemUsesDurability), allowConflict: true, conflictResolver: BooleanMerge);
             this.ItemHasPhysicalDamage = ReconcileValue(this.ItemHasPhysicalDamage, confirmedParents, p => p.ItemHasPhysicalDamage, nameof(ItemHasPhysicalDamage), allowConflict: true, conflictResolver: BooleanMerge);
+            this.ItemHasElementalDamage = ReconcileValue(this.ItemHasElementalDamage, confirmedParents, p => p.ItemHasElementalDamage, nameof(ItemHasElementalDamage), allowConflict: true, conflictResolver: BooleanMerge);
             this.DisplayText = ReconcileValue(this.DisplayText, confirmedParents, p => p.DisplayText, nameof(DisplayText));
             this.Description = ReconcileValue(this.Description, confirmedParents, p => p.Description, nameof(Description));
             this.SelectionWeight = ReconcileValue(this.SelectionWeight, confirmedParents, p => p.SelectionWeight, nameof(SelectionWeight), allowConflict: true, conflictResolver: SelectionWeightMultiplier);

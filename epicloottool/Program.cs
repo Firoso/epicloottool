@@ -98,6 +98,7 @@ namespace epicloottool
                         ItemHasNegativeMovementSpeedModifier = o.ItemHasNegativeMovementSpeedModifier ?? false,
                         ItemUsesDurability = o.ItemUsesDurability ?? false,
                         ItemHasPhysicalDamage = o.ItemHasPhysicalDamage ?? false,
+                        ItemHasElementalDamage = o.ItemHasElementalDamage ?? false,
                         AllowedItemNames = o.AllowedItemNames ?? new List<string>(),
                         ExcludedSkillTypes = o.ExcludedSkillTypes ?? new List<Skills.SkillType>(),
                         AllowedSkillTypes = o.AllowedSkillTypes ?? new List<Skills.SkillType>(),

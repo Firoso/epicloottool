@@ -21,6 +21,7 @@ namespace epicloottool
             this.ItemHasNegativeMovementSpeedModifier = ReconcileValue(this.ItemHasNegativeMovementSpeedModifier, parentTemplate, p => p.ItemHasNegativeMovementSpeedModifier, nameof(ItemHasNegativeMovementSpeedModifier));
             this.ItemUsesDurability = ReconcileValue(this.ItemUsesDurability, parentTemplate, p => p.ItemUsesDurability, nameof(ItemUsesDurability));
             this.ItemHasPhysicalDamage = ReconcileValue(this.ItemHasPhysicalDamage, parentTemplate, p => p.ItemHasPhysicalDamage, nameof(ItemHasPhysicalDamage));
+            this.ItemHasElementalDamage = ReconcileValue(this.ItemHasElementalDamage, parentTemplate, p => p.ItemHasElementalDamage, nameof(ItemHasElementalDamage));
             this.DisplayText = ReconcileValue(this.DisplayText, parentTemplate, p => p.DisplayText, nameof(DisplayText));
             this.Description = ReconcileValue(this.Description, parentTemplate, p => p.Description, nameof(Description));
             this.SelectionWeight = ReconcileValue(this.SelectionWeight, parentTemplate, p => p.SelectionWeight, nameof(SelectionWeight), merge: true, mergeResolver: SelectionWeightMultiplier);

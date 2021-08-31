@@ -91,6 +91,9 @@
   - Shoulder
   - Utility
   - Legs
+  AllowedRarities:
+  - Epic
+  - Legendary
   Prefixes:
   - $mod_epicloot_me_waterproof_prefix1
   Suffixes:
